@@ -1,0 +1,15 @@
+#footer {
+    background-color: $black;
+    color: $white;
+    border: 1px solid $black;
+    text-align: center;
+    position: relative;
+    top: 0;
+}
+#contactUs {
+    text-decoration: none;
+    color: $white;
+    &:hover {
+        color: $footer-hover;
+    }
+}

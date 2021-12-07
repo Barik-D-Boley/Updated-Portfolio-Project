@@ -1,6 +1,6 @@
 /* Base */
 import React from 'react';
-import './Styling/index.css';
+import './Styling/main.css';
 
 /* Routing */
 import ReactDOM from 'react-dom';
