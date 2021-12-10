@@ -1,15 +1,24 @@
 #footer {
-    background-color: $black;
-    color: $white;
-    border: 1px solid $black;
-    text-align: center;
+    display: flex;
+    background-color: $footer-background;
+    color: $footer-text;
+    justify-content: center;
+    align-items: center;
     position: relative;
     top: 0;
+    height: 1.3rem;
 }
-#contactUs {
+#contact-us {
     text-decoration: none;
-    color: $white;
+    color: $footer-text;
     &:hover {
-        color: $footer-hover;
+        color: $footer-text-hover;
     }
+}
+.footer-invisible {
+    color: $footer-background;
+    -webkit-user-select: none;      
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }

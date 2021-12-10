@@ -339,7 +339,13 @@ template {
   display: none;
 }
 
+/* Body */
 /* Footer */
+/* Oswald */
+@font-face {
+  font-family: oswald;
+  src: url("./fonts/Oswald.ttf");
+}
 /* Pages */
 body {
   margin: 0;
@@ -347,22 +353,33 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%237658f1'/%3E%3Cstop offset='1' stop-color='%237658f1' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23458bf1'/%3E%3Cstop offset='1' stop-color='%23458bf1' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2331b8ff'/%3E%3Cstop offset='1' stop-color='%2331b8ff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%238a2be2'/%3E%3Cstop offset='1' stop-color='%238a2be2' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%236185ff'/%3E%3Cstop offset='1' stop-color='%236185ff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2300eaff'/%3E%3Cstop offset='1' stop-color='%2300eaff' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
   background-attachment: fixed;
   background-size: cover;
+  font-family: oswald;
 }
 
 /* Components */
 #footer {
+  display: flex;
   background-color: #000000;
   color: #ffffff;
-  border: 1px solid #000000;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   position: relative;
   top: 0;
+  height: 1.3rem;
 }
 
-#contactUs {
+#contact-us {
   text-decoration: none;
   color: #ffffff;
 }
-#contactUs:hover {
-  color: #dfdfdf;
+#contact-us:hover {
+  color: #bfbfbf;
+}
+
+.footer-invisible {
+  color: #000000;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }/*# sourceMappingURL=main.css.map */
