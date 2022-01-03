@@ -1,0 +1,11 @@
+.navActive {
+    color: $navbar-active;
+    text-decoration: none;
+}
+.navInactive {
+    color: $navbar-inactive;
+    text-decoration: none;
+    &:hover {
+        color: $navbar-hover;
+    }
+}

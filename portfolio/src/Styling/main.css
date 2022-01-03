@@ -339,6 +339,7 @@ template {
   display: none;
 }
 
+/* Navbar */
 /* Body */
 /* Footer */
 /* Oswald */
@@ -383,4 +384,17 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.navActive {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navInactive {
+  color: #ffffff7f;
+  text-decoration: none;
+}
+.navInactive:hover {
+  color: #bfbfbf;
 }/*# sourceMappingURL=main.css.map */
