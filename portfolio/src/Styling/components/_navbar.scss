@@ -1,4 +1,8 @@
-.navActive {
+#navbar {
+    display: flex;
+}
+
+#navTitle {
     color: $navbar-active;
     text-decoration: none;
 }
@@ -8,4 +12,8 @@
     &:hover {
         color: $navbar-hover;
     }
+}
+.navActive {
+    color: $navbar-active;
+    text-decoration: none;
 }

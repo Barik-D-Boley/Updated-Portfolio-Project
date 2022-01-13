@@ -5,7 +5,7 @@ import Footer from '../Components/footer';
 function AboutMe() {
     return (
         <div>
-            <Navbar />
+            <Navbar active={'aboutMe'} />
             About Me
             <Footer />
         </div>

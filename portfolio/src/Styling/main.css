@@ -386,7 +386,11 @@ body {
   user-select: none;
 }
 
-.navActive {
+#navbar {
+  display: flex;
+}
+
+#navTitle {
   color: #ffffff;
   text-decoration: none;
 }
@@ -396,5 +400,10 @@ body {
   text-decoration: none;
 }
 .navInactive:hover {
-  color: #bfbfbf;
+  color: #ffffffbf;
+}
+
+.navActive {
+  color: #ffffff;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */

@@ -5,7 +5,7 @@ import Footer from '../Components/footer';
 function ProjectGallery() {
     return (
         <div>
-            <Navbar />
+            <Navbar active={'projectGallery'} />
             Gallery
             <Footer />
         </div>

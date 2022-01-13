@@ -5,7 +5,7 @@ import Footer from '../Components/footer';
 function Homepage() {
     return (
         <div>
-            <Navbar />
+            <Navbar active={'homepage'} />
             Homepage
             <Footer />
         </div>

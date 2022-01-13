@@ -5,7 +5,7 @@ import Footer from '../Components/footer';
 function Resume() {
     return (
         <div>
-            <Navbar />
+            <Navbar active={'resume'} />
             Resume
             <Footer />
         </div>
