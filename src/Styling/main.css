@@ -341,6 +341,7 @@ template {
 
 /* Navbar */
 /* Body */
+/* Homepage */
 /* Footer */
 /* Oswald */
 @font-face {
@@ -355,6 +356,32 @@ body {
   background-attachment: fixed;
   background-size: cover;
   font-family: oswald;
+}
+
+.container-div {
+  margin: 0 4rem;
+}
+
+.content-div {
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+}
+.content-div h1 {
+  color: #000000;
+}
+.content-div h3 {
+  color: #000000;
+}
+.content-div p {
+  color: #808080;
+}
+
+.icon {
+  font-size: 4rem;
+  color: black;
+}
+.icon:hover {
+  color: #0274b3;
 }
 
 /* Components */
@@ -386,24 +413,39 @@ body {
   user-select: none;
 }
 
+/* Navbar Container */
 #navbar {
   display: flex;
+  justify-content: space-between;
+  margin: 3rem 4rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 3rem;
 }
 
-#navTitle {
+/*  */
+#nav-title {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.nav-page-link {
+  font-size: 1.4rem;
+  padding-left: 1.2rem;
+}
+
+/* Different Classes for active and inactive links */
+.nav-active {
   color: #ffffff;
   text-decoration: none;
 }
 
-.navInactive {
+.nav-inactive {
   color: #ffffff7f;
   text-decoration: none;
+  transition: color 0.2s ease-out;
 }
-.navInactive:hover {
-  color: #ffffffbf;
-}
-
-.navActive {
-  color: #ffffff;
-  text-decoration: none;
+.nav-inactive:hover {
+  color: #ffffffcf;
 }/*# sourceMappingURL=main.css.map */

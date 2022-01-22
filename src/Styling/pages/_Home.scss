@@ -1,0 +1,10 @@
+#socials {
+
+}
+.icon {
+    font-size: 4rem;
+    color: black;
+    &:hover {
+        color: $linkedin;
+    }
+}

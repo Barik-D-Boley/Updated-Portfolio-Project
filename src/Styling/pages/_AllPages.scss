@@ -6,3 +6,20 @@ body {
     background-size: cover;
     font-family: oswald;
 }
+
+.container-div {
+    margin: 0 4rem;
+}
+.content-div {
+    background-color: $content-div-background;
+    border-radius: 1.5rem;
+    h1 {
+        color: $title;
+    }
+    h3 {
+        color: $title;
+    }
+    p {
+        color: $text;
+    }
+}
