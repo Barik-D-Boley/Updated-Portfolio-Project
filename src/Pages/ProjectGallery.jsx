@@ -1,11 +1,11 @@
-import React from 'react';
-import Navbar from '../Components/navbar';
-import Footer from '../Components/footer';
+import React from "react";
+import Navbar from "../Components/navbar";
+import Footer from "../Components/footer";
 
 function ProjectGallery() {
     return (
         <div>
-            <Navbar active={'projectGallery'} />
+            <Navbar active={"projectGallery"} />
             Gallery
             <Footer />
         </div>

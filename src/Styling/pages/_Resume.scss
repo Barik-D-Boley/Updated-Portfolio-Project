@@ -1,15 +1,56 @@
-#resume {
-
+#resume-container {
+    display: flex;
+    background-color: $resume-background;
+    margin: 0 auto;
+    padding: 3rem;
+    width: 60rem;
+    border-radius: 1rem;
+    flex-direction: column;
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        margin: .3rem 0;
+        color: $resume-subtitles;
+    }
+    h3 {
+        font-size: 1.75rem
+    }
 }
-#resume-title {
 
+.regular-text {
+    font-size: 1.125rem;
+    color: $resume-text;
 }
-#resume-contacts {
 
-}
-.barik-contact {
+#resume-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
 
+    #resume-contacts {
+        text-align: end;
+        flex-direction: column;
+
+        .contact-div {
+            margin-bottom: .5rem;
+            a {
+                text-decoration: none;
+                margin-bottom: 1rem;
+                .resume-icon {
+                    color: $resume-subtitles;
+                }
+            }
+        }
+    }
 }
-#resume-statement {
-    
+
+.skill-box {
+    background-color: $skills-background;
+    color: $resume-background;
+    display: inline-flex;
+    border-radius: .375rem;
+    padding: .375rem .875rem;
+    margin: 0 .5rem .5rem 0;
 }

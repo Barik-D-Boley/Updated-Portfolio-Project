@@ -1,11 +1,11 @@
-import React from 'react';
-import Navbar from '../Components/navbar';
-import Footer from '../Components/footer';
+import React from "react";
+import Navbar from "../Components/navbar";
+import Footer from "../Components/footer";
 
 function AboutMe() {
     return (
         <div>
-            <Navbar active={'aboutMe'} />
+            <Navbar active={"aboutMe"} />
             About Me
             <Footer />
         </div>
