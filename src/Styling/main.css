@@ -426,8 +426,8 @@ body {
   display: flex;
   background-color: #ffffff;
   margin: 0 auto;
-  padding: 3rem;
-  width: 60rem;
+  padding: 3.5rem;
+  width: 70rem;
   border-radius: 1rem;
   flex-direction: column;
 }
@@ -440,16 +440,19 @@ body {
 }
 #resume-container h3 {
   font-size: 1.75rem;
+  margin: 1rem 0 0 2rem;
+}
+#resume-container h4 {
+  font-size: 1.5rem;
 }
 
 .regular-text {
-  font-size: 1.125rem;
+  font-size: 1.3rem;
   color: #000000;
 }
 
 #resume-top {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   margin-bottom: 1rem;
 }
@@ -469,6 +472,19 @@ body {
 }
 #resume-top #resume-contacts .contact-div a .resume-icon {
   color: #313c4e;
+}
+
+#resume-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+#resume-bottom .column {
+  width: 48%;
+}
+
+.text-boxes {
+  margin-top: 1.5rem;
+  margin-left: 2rem;
 }
 
 .skill-box {

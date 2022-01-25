@@ -35,14 +35,14 @@ function Resume() {
                 </div>  
 
                 {/* Resume Bottom */}
-                <div>
+                <div id="resume-bottom">
                     {/* Left Column */}
-                    <div>
+                    <div className="column">
                         {/* Education */}
                         <div>
                             <h3>Education</h3><hr/>
                             {/* Web Development */}
-                            <div>
+                            <div className="text-boxes">
                                 <h4>Full Stack Web Development</h4>
                                 <h4>West MEC</h4>
                                 <p>08/2020 - 05/2022</p><p>3.75 GPA</p>
@@ -54,7 +54,7 @@ function Resume() {
                             </div>
 
                             {/* Engineering */}
-                            <div>
+                            <div className="text-boxes">
                                 <h4>CTE Engineering</h4>
                                 <h4>Boulder Creek</h4>
                                 <p>08/2018 - 05/2022</p><p>3.88 GPA</p>
@@ -105,37 +105,41 @@ function Resume() {
                     </div>
 
                     {/* Right Column */}
-                    <div>
+                    <div className="column">
                         {/* Skills */}
                         <div>
                             <h3>Skills</h3><hr/>
 
-                            <div className="regular-text skill-box">Active Listening</div>
-                            <div className="regular-text skill-box">Leadership</div>
-                            <div className="regular-text skill-box">Computer Skills</div>
-                            <div className="regular-text skill-box">Hard Working</div>
-                            <div className="regular-text skill-box">Dedicated</div>
-                            <div className="regular-text skill-box">Honest</div>
-                            <div className="regular-text skill-box">Web Development</div>
-                            <div className="regular-text skill-box">Computer-Assisted Design</div>
+                            <div className="text-boxes">
+                                <div className="regular-text skill-box">Active Listening</div>
+                                <div className="regular-text skill-box">Leadership</div>
+                                <div className="regular-text skill-box">Computer Skills</div>
+                                <div className="regular-text skill-box">Hard Working</div>
+                                <div className="regular-text skill-box">Dedicated</div>
+                                <div className="regular-text skill-box">Honest</div>
+                                <div className="regular-text skill-box">Web Development</div>
+                                <div className="regular-text skill-box">Computer-Assisted Design</div>
+                            </div>
                         </div>
                         
                         {/* Personal Projects */}
                         <div id="personal-projects">
-                            <h3>Personal Projects</h3>
+                            <h3>Personal Projects</h3><hr/>
 
-                            <p>Building Computers (06/2017 - Present)</p>
-                            <ul><li>Building and upgrading my desktop</li></ul>
+                            <div className="text-boxes">
+                                <p>Building Computers (06/2017 - Present)</p>
+                                <ul><li>Building and upgrading my desktop</li></ul>
 
-                            <p>Portfolio Website (02/2021 - Present)</p>
-                            <ul><li>Creating and updating my portfolio website</li></ul>
+                                <p>Portfolio Website (02/2021 - Present)</p>
+                                <ul><li>Creating and updating my portfolio website</li></ul>
 
-                            <p>Eagle Project (10/2019 - 11/2019)</p>
-                            <ul>
-                                <li>Organized a retirement home talent show at Merrill Gardens</li>
-                                <li>Coordinated With Merrill Gardens" executive director</li>
-                                <li>Planned the entertainment and refreshments</li>
-                            </ul>
+                                <p>Eagle Project (10/2019 - 11/2019)</p>
+                                <ul>
+                                    <li>Organized a retirement home talent show at Merrill Gardens</li>
+                                    <li>Coordinated With Merrill Gardens" executive director</li>
+                                    <li>Planned the entertainment and refreshments</li>
+                                </ul>
+                            </div>
                         </div>
 
                         {/* Organizations */}

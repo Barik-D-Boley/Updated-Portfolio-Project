@@ -2,8 +2,8 @@
     display: flex;
     background-color: $resume-background;
     margin: 0 auto;
-    padding: 3rem;
-    width: 60rem;
+    padding: 3.5rem;
+    width: 70rem;
     border-radius: 1rem;
     flex-direction: column;
     h1 {
@@ -14,18 +14,21 @@
         color: $resume-subtitles;
     }
     h3 {
-        font-size: 1.75rem
+        font-size: 1.75rem;
+        margin: 1rem 0 0 2rem;
+    }
+    h4 {
+        font-size: 1.5rem;
     }
 }
 
 .regular-text {
-    font-size: 1.125rem;
+    font-size: 1.3rem;
     color: $resume-text;
 }
 
 #resume-top {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     margin-bottom: 1rem;
 
@@ -49,6 +52,18 @@
     }
 }
 
+#resume-bottom {
+    display: flex;
+    justify-content: space-between;
+    .column {
+        width: 48%;
+    }
+}
+
+.text-boxes {
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
 .skill-box {
     background-color: $skills-background;
     color: $resume-background;
