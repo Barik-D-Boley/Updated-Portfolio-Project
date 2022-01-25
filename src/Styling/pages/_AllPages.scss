@@ -13,13 +13,18 @@ body {
 .content-div {
     background-color: $content-div-background;
     border-radius: 1.5rem;
+    display: flex;
+    flex-direction: row;
     h1 {
         color: $title;
+        font-size: 4rem;
     }
     h3 {
         color: $title;
+        font-size: 2.5rem;
     }
     p {
         color: $text;
+        font-size: 1.5rem;
     }
 }

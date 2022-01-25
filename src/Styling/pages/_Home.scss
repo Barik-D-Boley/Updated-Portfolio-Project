@@ -1,3 +1,17 @@
+#profile-picture-container {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+#profile-picture {
+    width: 20rem;
+    height: auto;
+    max-width: 100%;
+}
+#profile-information {
+    width: auto;
+}
 #socials {
 
 }
