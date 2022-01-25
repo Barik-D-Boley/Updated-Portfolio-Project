@@ -38,6 +38,9 @@
             a {
                 text-decoration: none;
                 margin-bottom: 1rem;
+                &:hover {
+                    color: $resume-link-hover;
+                }
                 .resume-icon {
                     color: $resume-subtitles;
                 }
