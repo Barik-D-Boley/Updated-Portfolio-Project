@@ -1,0 +1,19 @@
+#contact-container-div {
+    flex-direction: column;
+    padding: 2rem 10rem;
+}
+#email-label {
+    margin-bottom: .5rem;
+    font-size: 2rem;
+}
+.email-input {
+    width: 100%;
+}
+#email-content {
+    height: 10rem;
+    resize: none;
+}
+#submit-btn {
+    width: auto;
+
+}

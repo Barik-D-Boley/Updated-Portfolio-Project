@@ -9,12 +9,9 @@ body {
 
 .container-div {
     margin: 0 4rem;
-}
-.content-div {
     background-color: $content-div-background;
     border-radius: 1.5rem;
     display: flex;
-    flex-direction: row;
     h1 {
         color: $title;
         font-size: 4rem;

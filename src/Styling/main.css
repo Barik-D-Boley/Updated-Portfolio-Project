@@ -376,25 +376,44 @@ body {
 
 .container-div {
   margin: 0 4rem;
-}
-
-.content-div {
   background-color: #ffffff;
   border-radius: 1.5rem;
   display: flex;
-  flex-direction: row;
 }
-.content-div h1 {
+.container-div h1 {
   color: #000000;
   font-size: 4rem;
 }
-.content-div h3 {
+.container-div h3 {
   color: #000000;
   font-size: 2.5rem;
 }
-.content-div p {
+.container-div p {
   color: #808080;
   font-size: 1.5rem;
+}
+
+#contact-container-div {
+  flex-direction: column;
+  padding: 2rem 10rem;
+}
+
+#email-label {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+.email-input {
+  width: 100%;
+}
+
+#email-content {
+  height: 10rem;
+  resize: none;
+}
+
+#submit-btn {
+  width: auto;
 }
 
 #profile-picture-container {
