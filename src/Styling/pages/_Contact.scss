@@ -1,6 +1,11 @@
 #contact-container-div {
     flex-direction: column;
     padding: 2rem 10rem;
+    h5 {
+        font-size: 2.5rem;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
 }
 #email-label {
     margin-bottom: .5rem;
@@ -8,12 +13,28 @@
 }
 .email-input {
     width: 100%;
+    min-height: 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
 }
 #email-content {
     height: 10rem;
     resize: none;
+    border: 1px solid black;
+    border-radius: .5rem;
+    margin-top: .6rem;
+    padding: .3rem;
 }
 #submit-btn {
     width: auto;
-
+    color: white;
+    padding: .3rem 1rem;
+    background-color: blue;
+    border: none;
+    border-radius: .4rem;
+    &:hover {
+        cursor: pointer;
+        background-color: black;
+    }
 }

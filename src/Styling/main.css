@@ -365,11 +365,6 @@ template {
   src: url("./fonts/Oswald.ttf");
 }
 /* Pages */
-html {
-  height: 100%;
-  min-height: 100%;
-}
-
 body {
   margin: 0;
   background-color: #8a2be2;
@@ -377,7 +372,6 @@ body {
   background-attachment: fixed;
   background-size: cover;
   font-family: oswald;
-  min-height: 100%;
 }
 
 .asdf {
@@ -407,6 +401,11 @@ body {
   flex-direction: column;
   padding: 2rem 10rem;
 }
+#contact-container-div h5 {
+  font-size: 2.5rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
 
 #email-label {
   margin-bottom: 0.5rem;
@@ -415,15 +414,32 @@ body {
 
 .email-input {
   width: 100%;
+  min-height: 1.5rem;
+  border: none;
+  outline: none;
+  font-size: 1.4rem;
 }
 
 #email-content {
   height: 10rem;
   resize: none;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  margin-top: 0.6rem;
+  padding: 0.3rem;
 }
 
 #submit-btn {
   width: auto;
+  color: white;
+  padding: 0.3rem 1rem;
+  background-color: blue;
+  border: none;
+  border-radius: 0.4rem;
+}
+#submit-btn:hover {
+  cursor: pointer;
+  background-color: black;
 }
 
 #profile-picture-container {
@@ -715,7 +731,9 @@ li.no-columns-list {
   position: relative;
   width: 100%;
   bottom: 0;
-  height: 1.3rem;
+  height: 1.6rem;
+  margin-top: 4rem;
+  margin-bottom: 0;
 }
 
 #contact-me {

@@ -12,11 +12,11 @@ function ContactMe() {
             <div id="contact-container-div" className="container-div">
                 <h5>Get in Touch</h5>
                 <form id="send-email">
-                    <input type="text" id="name-input" className="email-input" placeholder="Your Name:" /><br />
-                    <input type="text" id="email-input" className="email-input" placeholder="Your Email:" /><br />
+                    <input type="text" id="name-input" className="email-input" placeholder="Your Name:" /><hr />
+                    <input type="text" id="email-input" className="email-input" placeholder="Your Email:" /><hr />
                     <input type="text" id="email-subject" className="email-input" placeholder="Subject:" />
                     <textarea type="text" id="email-content" className="email-input" placeholder="Dear Barik," />
-                    <input type="submit" value="send" />
+                    <input type="submit" value="Send" id="submit-btn" className="email-input" />
                 </form>
 
                 <div id='socials'>
