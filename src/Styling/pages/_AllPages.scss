@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+    min-height: 100%;
+}
 body {
     margin: 0;
     background-color: #8a2be2;
@@ -5,8 +9,11 @@ body {
     background-attachment: fixed;
     background-size: cover;
     font-family: oswald;
+    min-height: 100%;
 }
-
+.asdf {
+    min-height: 100%;
+}
 .container-div {
     margin: 0 4rem;
     background-color: $content-div-background;

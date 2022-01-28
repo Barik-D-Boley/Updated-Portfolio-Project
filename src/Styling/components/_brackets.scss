@@ -1,0 +1,40 @@
+.bracket-pair {
+    position: absolute;
+    display: inline-flex;
+    width: 31.5rem;
+    justify-content: space-between;
+}
+.opening-bracket {
+    border: .2rem solid $resume-text;
+    border-right: none;
+    width: 1rem;
+}
+.closing-bracket {
+    border: .2rem solid $resume-text;
+    border-left: none;
+    width: 1rem;
+}
+    #brackets_1 {
+        top: 40.3rem;
+        div {
+            height: 3.5rem;
+        }
+    }
+    #brackets_2 {
+        top: 52rem;
+        div {
+            height: 6.3rem;
+        }
+    }
+    #brackets_3 {
+        top: 76.4rem;
+        div {
+            height: 5.5rem;
+        }
+    }
+    #brackets_4 {
+        top: 94.7rem;
+        div {
+            height: 7rem;
+        }
+    }
