@@ -9,7 +9,7 @@ function carousel() {
 
     return (
         <div>
-            
+            Carousel
         </div>
     )
 }
