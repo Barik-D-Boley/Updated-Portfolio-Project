@@ -236,7 +236,7 @@ function Resume() {
                     </div>
                 </div>
             </div>
-            <Footer />
+            <Footer newPosition={"relative"} />
         </div>
     )
 }

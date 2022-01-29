@@ -5,15 +5,17 @@ body {
     background-attachment: fixed;
     background-size: cover;
     font-family: oswald;
+    min-height: 94.9vh;
 }
-.asdf {
-    min-height: 100%;
+.website-container-div {
+    display: flex;
+    justify-content: center;
 }
 .container-div {
-    margin: 0 4rem;
     background-color: $content-div-background;
     border-radius: 1.5rem;
     display: flex;
+    width: 70%;
     h1 {
         color: $title;
         font-size: 4rem;

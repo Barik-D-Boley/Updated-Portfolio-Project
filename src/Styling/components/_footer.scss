@@ -1,15 +1,17 @@
-#footer {
+.footer {
     display: flex;
     background-color: $footer-background;
     color: $footer-text;
     justify-content: center;
     align-items: center;
-    position: relative;
+    position: absolute;
     width: 100%;
     bottom: 0;
     height: 1.6rem;
-    margin-top: 4rem;
-    margin-bottom: 0;
+}
+.position-relative {
+    position: relative;
+    margin-top: 3rem;
 }
 #contact-me {
     text-decoration: none;

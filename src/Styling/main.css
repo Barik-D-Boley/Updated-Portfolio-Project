@@ -372,17 +372,19 @@ body {
   background-attachment: fixed;
   background-size: cover;
   font-family: oswald;
+  min-height: 94.9vh;
 }
 
-.asdf {
-  min-height: 100%;
+.website-container-div {
+  display: flex;
+  justify-content: center;
 }
 
 .container-div {
-  margin: 0 4rem;
   background-color: #ffffff;
   border-radius: 1.5rem;
   display: flex;
+  width: 70%;
 }
 .container-div h1 {
   color: #000000;
@@ -433,13 +435,20 @@ body {
   width: auto;
   color: white;
   padding: 0.3rem 1rem;
-  background-color: blue;
+  background-color: #006eff;
+  bottom: 0;
+  left: 0;
   border: none;
   border-radius: 0.4rem;
+  margin-top: 0.5rem;
+  position: relative;
+  transition: bottom 0.3s, left 0.3s, ease 0.3s;
 }
 #submit-btn:hover {
   cursor: pointer;
-  background-color: black;
+  bottom: 0.3rem;
+  left: 0.3rem;
+  box-shadow: -0.3rem 0.3rem black;
 }
 
 #profile-picture-container {
@@ -722,18 +731,21 @@ li.no-columns-list {
 }
 
 /* Components */
-#footer {
+.footer {
   display: flex;
   background-color: #000000;
   color: #ffffff;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position: absolute;
   width: 100%;
   bottom: 0;
   height: 1.6rem;
-  margin-top: 4rem;
-  margin-bottom: 0;
+}
+
+.position-relative {
+  position: relative;
+  margin-top: 3rem;
 }
 
 #contact-me {
@@ -749,7 +761,7 @@ li.no-columns-list {
 #navbar {
   display: flex;
   justify-content: space-between;
-  margin: 3rem 4rem;
+  margin: 5.1vh 4rem;
   top: 3rem;
 }
 
@@ -778,4 +790,13 @@ li.no-columns-list {
 }
 .nav-inactive:hover {
   color: #ffffffcf;
+}
+
+.alert-box {
+  display: none;
+}
+
+.alert-box-active {
+  display: block;
+  position: absolute;
 }/*# sourceMappingURL=main.css.map */
