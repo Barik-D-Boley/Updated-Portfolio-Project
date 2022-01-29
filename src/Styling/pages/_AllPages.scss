@@ -10,12 +10,14 @@ body {
 .website-container-div {
     display: flex;
     justify-content: center;
+    margin-top: 15vh;
 }
 .container-div {
     background-color: $content-div-background;
     border-radius: 1.5rem;
     display: flex;
     width: 70%;
+        justify-content: center;
     h1 {
         color: $title;
         font-size: 4rem;

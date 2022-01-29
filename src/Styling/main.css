@@ -379,6 +379,7 @@ body {
 .website-container-div {
   display: flex;
   justify-content: center;
+  margin-top: 15vh;
 }
 
 .container-div {
@@ -386,6 +387,7 @@ body {
   border-radius: 1.5rem;
   display: flex;
   width: 70%;
+  justify-content: center;
 }
 .container-div h1 {
   color: #000000;
@@ -403,6 +405,7 @@ body {
 #contact-container-div {
   flex-direction: column;
   padding: 2rem 10rem;
+  height: 50vh;
 }
 #contact-container-div h5 {
   font-size: 2.5rem;
@@ -507,7 +510,7 @@ body {
 }
 
 #dots_1 {
-  top: 35.7rem;
+  top: 33.5rem;
 }
 
 #line_1 {
@@ -515,7 +518,7 @@ body {
 }
 
 #dots_2 {
-  top: 70.2rem;
+  top: 68rem;
 }
 
 #line_2 {
@@ -542,28 +545,28 @@ body {
 }
 
 #brackets_1 {
-  top: 42.4rem;
+  top: 40.3rem;
 }
 #brackets_1 div {
   height: 3.5rem;
 }
 
 #brackets_2 {
-  top: 54.1rem;
+  top: 52rem;
 }
 #brackets_2 div {
   height: 6.3rem;
 }
 
 #brackets_3 {
-  top: 78.7rem;
+  top: 76.6rem;
 }
 #brackets_3 div {
   height: 5.5rem;
 }
 
 #brackets_4 {
-  top: 96.8rem;
+  top: 94.7rem;
 }
 #brackets_4 div {
   height: 7rem;
@@ -762,7 +765,7 @@ li.no-columns-list {
 #navbar {
   display: flex;
   justify-content: space-between;
-  margin: 5.1vh 4rem;
+  margin: 3rem 4rem;
   top: 3rem;
 }
 
@@ -871,4 +874,19 @@ li.no-columns-list {
 
 .alert-active {
   display: flex;
+}
+
+#all-project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project-card {
+  background-color: #ffffff;
+  display: inline-flex;
+  width: 30vw;
+  border-radius: 1rem;
+  flex-direction: column;
+  margin-bottom: 2rem;
 }/*# sourceMappingURL=main.css.map */

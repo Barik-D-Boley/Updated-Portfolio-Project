@@ -13,7 +13,7 @@ function ProjectGallery() {
 
             {/* All projects ever */}
             <AllProjects />
-            <Footer />
+            <Footer newPosition={"relative"} />
         </div>
     )
 }

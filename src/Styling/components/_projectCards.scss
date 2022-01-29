@@ -1,0 +1,13 @@
+#all-project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.project-card {
+    background-color: $content-div-background;
+    display: inline-flex;
+    width: 30vw;
+    border-radius: 1rem;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}

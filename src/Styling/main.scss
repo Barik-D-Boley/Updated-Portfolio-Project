@@ -1,17 +1,18 @@
 /* Base */
-@import './base/normalize';
-@import './colors';
-@import './fonts/fonts';
+@import "./base/normalize";
+@import "./colors";
+@import "./fonts/fonts";
 
 /* Pages */
-@import './pages/About';
-@import './pages/AllPages';
-@import './pages/Contact';
-@import './pages/Gallery';
-@import './pages/Home';
-@import './pages/Resume';
+@import "./pages/About";
+@import "./pages/AllPages";
+@import "./pages/Contact";
+@import "./pages/Gallery";
+@import "./pages/Home";
+@import "./pages/Resume";
 
 /* Components */
-@import './components/footer';
-@import './components/navbar';
-@import './components/alert';
+@import "./components/footer";
+@import "./components/navbar";
+@import "./components/alert";
+@import "./components/projectCards";
