@@ -359,6 +359,7 @@ template {
 /* Homepage */
 /* Resume */
 /* Footer */
+/* Alert */
 /* Oswald */
 @font-face {
   font-family: oswald;
@@ -506,7 +507,7 @@ body {
 }
 
 #dots_1 {
-  top: 33.5rem;
+  top: 35.7rem;
 }
 
 #line_1 {
@@ -514,11 +515,11 @@ body {
 }
 
 #dots_2 {
-  top: 67.8rem;
+  top: 70.2rem;
 }
 
 #line_2 {
-  height: 17rem;
+  height: 16.7rem;
 }
 
 .bracket-pair {
@@ -541,28 +542,28 @@ body {
 }
 
 #brackets_1 {
-  top: 40.3rem;
+  top: 42.4rem;
 }
 #brackets_1 div {
   height: 3.5rem;
 }
 
 #brackets_2 {
-  top: 52rem;
+  top: 54.1rem;
 }
 #brackets_2 div {
   height: 6.3rem;
 }
 
 #brackets_3 {
-  top: 76.4rem;
+  top: 78.7rem;
 }
 #brackets_3 div {
   height: 5.5rem;
 }
 
 #brackets_4 {
-  top: 94.7rem;
+  top: 96.8rem;
 }
 #brackets_4 div {
   height: 7rem;
@@ -792,11 +793,82 @@ li.no-columns-list {
   color: #ffffffcf;
 }
 
-.alert-box {
+.inactive-alert-box {
   display: none;
 }
 
-.alert-box-active {
-  display: block;
+.active-alert-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #0000005f;
+  z-index: 10;
+}
+
+.alert-info {
+  display: flex;
+  background-color: #ffffff;
+  width: 20vw;
+  height: 15vh;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#close-out-container {
+  position: absolute;
+  display: inline-flex;
+  align-self: flex-end;
+  float: right;
+  width: 2rem;
+  margin: 0.7rem 0.7rem 0 0;
+}
+
+.close-out {
+  color: #808080;
+  font-size: 2rem;
+  border-radius: 0.2rem;
+  transition: color 0.1s ease;
+}
+.close-out:hover {
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.success-message {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+}
+.success-message h1 {
+  color: #008000;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.failed-message {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+}
+.failed-message h1 {
+  color: #ff0000;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.alert-text {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0;
+}
+
+.alert-active {
+  display: flex;
 }/*# sourceMappingURL=main.css.map */

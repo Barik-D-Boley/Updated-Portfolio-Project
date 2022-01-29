@@ -1,3 +1,5 @@
+$top: 42.4rem;
+
 .bracket-pair {
     position: absolute;
     display: inline-flex;
@@ -15,25 +17,25 @@
     width: 1rem;
 }
     #brackets_1 {
-        top: 40.3rem;
+        top: $top;
         div {
             height: 3.5rem;
         }
     }
     #brackets_2 {
-        top: 52rem;
+        top: $top+11.7rem;
         div {
             height: 6.3rem;
         }
     }
     #brackets_3 {
-        top: 76.4rem;
+        top: $top+36.3rem;
         div {
             height: 5.5rem;
         }
     }
     #brackets_4 {
-        top: 94.7rem;
+        top: $top+54.4;
         div {
             height: 7rem;
         }

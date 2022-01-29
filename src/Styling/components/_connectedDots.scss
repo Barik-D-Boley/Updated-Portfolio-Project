@@ -1,3 +1,5 @@
+$top: 35.7rem;
+
 .connected-bullets {
     position: absolute;
     display: flex;
@@ -26,15 +28,15 @@
 }
 
 #dots_1 {
-    top: 33.5rem
+    top: $top;
 }
 #line_1 {
     height: 10.2rem;
 }
 
 #dots_2 {
-    top: 67.8rem;
+    top: $top+34.5rem;
 }
 #line_2 {
-    height: 17rem;
+    height: 16.7rem;
 }

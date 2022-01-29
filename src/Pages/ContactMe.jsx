@@ -2,10 +2,13 @@ import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import Navbar from "../Components/navbar";
 import Footer from "../Components/footer";
-import Alert from "../Components/alert";
+// import Alert from "../Components/alert";
+import { MdClose } from 'react-icons/md';
 
 function ContactMe() {
     const [active, setActive] = useState(false);
+    const [success, setSuccess] = useState(false);
+
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -19,8 +22,8 @@ function ContactMe() {
         if ((name && fromEmail && subject && message) !== "") {
             emailjs.sendForm("service_ntq0jqe", "template_mby0g68", form.current, "user_fpJp0wfQ4tjfPrmdOUL6M")
                 .then(() => {
-                    // alert("Sent!");
                     setActive(true);
+                    setSuccess(true);
                     document.getElementById("name-input").value = "";
                     document.getElementById("email-input").value = "";
                     document.getElementById("email-subject").value = "";
@@ -30,11 +33,32 @@ function ContactMe() {
                 });
         } else {
             setActive(true);
+            setSuccess(false);
         }
     }
 
     return (
         <div>
+            {/* Alert Box */}
+            <div className={`${(active === true) ? "active-alert-box" : "inactive-alert-box"}`}>
+
+                <div className="alert-info">
+                    <div id="close-out-container"><MdClose className="close-out" onClick={() => setActive(false)} /></div>
+
+                    {/* Success Message */}
+                    <div className={`${(success === true) ? "success-message" : "inactive-alert-box"}`}>
+                        <h1 id="success-title" className="alert-title">Success!</h1>
+                        <p className="alert-text">Your message was sent successfully</p>
+                    </div>
+
+                    {/* Failed Message */}
+                    <div className={`${(success === false) ? "failed-message" : "inactive-alert-box"}`}>
+                        <h1 id="failed-title" className="alert-title">Error</h1>
+                        <p className="alert-text">Not all parameters were filled</p>
+                    </div>
+                </div>
+            </div>
+
             <Navbar active={"contactMe"} />
             <div className="website-container-div">
                 <div id="contact-container-div" className="container-div">
@@ -49,7 +73,6 @@ function ContactMe() {
                 </div>
             </div>
             <Footer />
-            <Alert active={active} />
         </div>
     )
 }
