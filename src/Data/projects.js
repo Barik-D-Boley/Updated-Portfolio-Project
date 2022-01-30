@@ -14,7 +14,7 @@ let Projects = [
         "GithubLink": "https://github.com/xBarikadex/Updated-Portfolio-Project",
         "DateCreated": "November 14, 2021",
         "LibraryUsed": "React",
-        "WebsiteLink": "",
+        "WebsiteLink": "https://updated-portfolio-boley.netlify.app/",
         "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
         "CoverImage": "",
         "Notable": true
