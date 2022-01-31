@@ -4,10 +4,67 @@
     justify-content: space-around;
 }
 .project-card {
+    position: relative;
     background-color: $content-div-background;
     display: inline-flex;
-    width: 30vw;
+    width: 17vw;
     border-radius: 1rem;
     flex-direction: column;
     margin-bottom: 2rem;
+    bottom: 0;
+    left: 0;
+    transition: bottom 0.3s, left 0.3s, ease 0.3s;
+    &:hover {
+        bottom: 0.3rem;
+        left: 0.3rem;
+        box-shadow: -0.3rem 0.3rem  black;
+    }
+}
+.project-image {
+    margin-bottom: .5rem;
+    border-radius: 1rem;
+    object-fit: cover;
+    border-bottom: .3rem solid black;
+}
+.project-card-info {
+    margin: 0 1vw;
+    h2 {
+        margin: 0;
+        margin-bottom: .5rem;
+    }
+    p {
+        color: $resume-subtitles;
+        margin: 0;
+        margin-bottom: .5rem;
+    }
+    .description {
+        color: $title;
+        margin-bottom: .8rem;
+    }
+    .github-link {
+        margin: 0;
+        margin-bottom: .5rem;
+        a {
+            color: $link;
+            text-decoration: none;
+            &:hover {
+                color: $link-hover;
+            }
+        }
+    }
+}
+.project-title {
+    font-size: 1.8rem;
+    color: $title;
+    text-decoration: none;
+    display: inline-flex
+}
+.website-link {
+    display: inline-flex;
+    color: blue;
+    font-size: 1.2rem;
+    margin-left: .3rem;
+    &:hover {
+        color: $link-hover;
+    }
 }

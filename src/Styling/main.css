@@ -358,6 +358,7 @@ template {
 /* Body */
 /* Homepage */
 /* Resume */
+/* Project Gallery */
 /* Footer */
 /* Alert */
 /* Oswald */
@@ -883,10 +884,72 @@ li.no-columns-list {
 }
 
 .project-card {
+  position: relative;
   background-color: #ffffff;
   display: inline-flex;
-  width: 30vw;
+  width: 17vw;
   border-radius: 1rem;
   flex-direction: column;
   margin-bottom: 2rem;
+  bottom: 0;
+  left: 0;
+  transition: bottom 0.3s, left 0.3s, ease 0.3s;
+}
+.project-card:hover {
+  bottom: 0.3rem;
+  left: 0.3rem;
+  box-shadow: -0.3rem 0.3rem black;
+}
+
+.project-image {
+  margin-bottom: 0.5rem;
+  border-radius: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-bottom: 0.3rem solid black;
+}
+
+.project-card-info {
+  margin: 0 1vw;
+}
+.project-card-info h2 {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.project-card-info p {
+  color: #313c4e;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.project-card-info .description {
+  color: #000000;
+  margin-bottom: 0.8rem;
+}
+.project-card-info .github-link {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.project-card-info .github-link a {
+  color: #0000ff;
+  text-decoration: none;
+}
+.project-card-info .github-link a:hover {
+  color: #0400d9;
+}
+
+.project-title {
+  font-size: 1.8rem;
+  color: #000000;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+.website-link {
+  display: inline-flex;
+  color: blue;
+  font-size: 1.2rem;
+  margin-left: 0.3rem;
+}
+.website-link:hover {
+  color: #0400d9;
 }/*# sourceMappingURL=main.css.map */

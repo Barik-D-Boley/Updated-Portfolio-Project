@@ -1,5 +1,6 @@
 import React from "react";
 import Projects from "../Data/projects.js";
+import { BiLinkExternal } from "react-icons/bi";
 import "../Images/Menu_Project.PNG";
 
 function infoBox() {
@@ -9,12 +10,14 @@ function infoBox() {
 
         stuff.push(  
             <div className="project-card" key={i}>
-                <img src={CoverImage} alt={ProjectName} />
-                <a href={WebsiteLink} target="_blank" rel="noreferrer" >{ProjectName}</a>
-                <p>{DateCreated}</p>
-                <a href={GithubLink}>See on Github</a>
-                <p>Library Used: {LibraryUsed}</p>
-                <p>{Description}</p>
+                <img src={CoverImage} alt={ProjectName} className="project-image" />
+                <div className="project-card-info">
+                    <h2 className="project-title">{ProjectName}</h2><a href={WebsiteLink} target="_blank" rel="noreferrer" className="website-link" ><BiLinkExternal /></a>
+                    <p>Created on {DateCreated}</p>
+                    <p>Library Used: {LibraryUsed}</p>
+                    <div className="github-link"><a href={GithubLink} target="_blank" rel="noreferrer">View on Github</a></div><hr />
+                    <p className="description">{Description}</p>
+                </div>
             </div>
         )
     }

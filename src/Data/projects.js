@@ -33,7 +33,7 @@ let Projects = [
         "ProjectName": "Creating an API",
         "GithubLink": "https://github.com/xBarikadex/Creating-an-API",
         "DateCreated": "November 7, 2021",
-        "LibraryUsed": "React",
+        "LibraryUsed": "NodeJS",
         "WebsiteLink": "",
         "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
         "CoverImage": "",
@@ -99,7 +99,7 @@ let Projects = [
         "CoverImage": "",
         "Notable": false
     },
-    {
+/*     {
         "ProjectName": "Vet Project",
         "GithubLink": "https://github.com/TheCapn-MEC/vetProject",
         "DateCreated": "January 16, 2022",
@@ -108,12 +108,12 @@ let Projects = [
         "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
         "CoverImage": "",
         "Notable": true
-    },
+    }, */
     {
         "ProjectName": "Old Man Jenkins V2",
         "GithubLink": "https://github.com/xBarikadex/The-Secret-Society-of-Old-Man-Jenkins-V2",
         "DateCreated": "October 24, 2021",
-        "LibraryUsed": "Vanilla",
+        "LibraryUsed": "NodeJS",
         "WebsiteLink": "",
         "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
         "CoverImage": "",
