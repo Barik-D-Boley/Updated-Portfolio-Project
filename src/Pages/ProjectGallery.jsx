@@ -11,8 +11,9 @@ function ProjectGallery() {
             {/* All notable projects in a carousel */}
             {/* <Carousel /> */}
             <div className="website-container-div">
-                <div className="contact-container-div">
+                <div id="gallery" className="container-div">
                     <h1>Project Gallery</h1>
+                    <p>A list of all the projects I've completed for my West MEC class</p>
                 </div>
 
             </div>

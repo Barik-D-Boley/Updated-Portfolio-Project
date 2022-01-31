@@ -359,6 +359,7 @@ template {
 /* Homepage */
 /* Resume */
 /* Project Gallery */
+/* Contact Me */
 /* Footer */
 /* Alert */
 /* Oswald */
@@ -403,6 +404,38 @@ body {
   font-size: 1.5rem;
 }
 
+.phone-portrait {
+  width: 412px;
+  height: 915px;
+}
+.phone-portrait .footer {
+  width: 412px;
+}
+
+.phone-landscape {
+  width: 915px;
+  height: 412px;
+}
+.phone-landscape .footer {
+  width: 915px;
+}
+
+.tablet-portrait {
+  width: 820px;
+  height: 1180px;
+}
+.tablet-portrait .footer {
+  width: 820px;
+}
+
+.tablet-landscape {
+  width: 1180px;
+  height: 820px;
+}
+.tablet-landscape .footer {
+  width: 1180px;
+}
+
 #contact-container-div {
   flex-direction: column;
   padding: 2rem 10rem;
@@ -430,7 +463,7 @@ body {
 #email-content {
   height: 10rem;
   resize: none;
-  border: 1px solid black;
+  border: 1px solid #000000;
   border-radius: 0.5rem;
   margin-top: 0.6rem;
   padding: 0.3rem;
@@ -438,7 +471,7 @@ body {
 
 #submit-btn {
   width: auto;
-  color: white;
+  color: #ffffff;
   padding: 0.3rem 1rem;
   background-color: #006eff;
   bottom: 0;
@@ -453,7 +486,11 @@ body {
   cursor: pointer;
   bottom: 0.3rem;
   left: 0.3rem;
-  box-shadow: -0.3rem 0.3rem black;
+  box-shadow: -0.3rem 0.3rem #000000;
+}
+
+#gallery {
+  flex-direction: column;
 }
 
 #profile-picture-container {
@@ -887,10 +924,11 @@ li.no-columns-list {
   position: relative;
   background-color: #ffffff;
   display: inline-flex;
-  width: 17vw;
+  width: 19rem;
   border-radius: 1rem;
   flex-direction: column;
   margin-bottom: 2rem;
+  margin: 1rem;
   bottom: 0;
   left: 0;
   transition: bottom 0.3s, left 0.3s, ease 0.3s;
@@ -915,6 +953,7 @@ li.no-columns-list {
 .project-card-info h2 {
   margin: 0;
   margin-bottom: 0.5rem;
+  max-width: 90%;
 }
 .project-card-info p {
   color: #313c4e;

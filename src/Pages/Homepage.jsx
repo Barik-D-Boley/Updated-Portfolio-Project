@@ -9,7 +9,7 @@ import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 function Homepage() {
     return (
-        <div>
+        <div className="tablet-portrait">
             <Navbar active={"homepage"} />
             <div className="website-container-div">
                 <div className="container-div">

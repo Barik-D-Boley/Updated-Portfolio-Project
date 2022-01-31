@@ -31,3 +31,35 @@ body {
         font-size: 1.5rem;
     }
 }
+
+// Example Phone Layout
+.phone-portrait {
+    width: 412px;
+    height: 915px;
+    .footer {
+        width: 412px;
+    }
+}
+.phone-landscape {
+    width: 915px;
+    height: 412px;
+    .footer {
+        width: 915px;
+    }
+}
+
+// Example Tablet Layout
+.tablet-portrait {
+    width: 820px;
+    height: 1180px;
+    .footer {
+        width: 820px;
+    }
+}
+.tablet-landscape {
+    width: 1180px;
+    height: 820px;
+    .footer {
+        width: 1180px;
+    }
+}

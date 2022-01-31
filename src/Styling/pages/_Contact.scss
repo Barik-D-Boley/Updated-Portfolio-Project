@@ -22,16 +22,16 @@
 #email-content {
     height: 10rem;
     resize: none;
-    border: 1px solid black;
+    border: 1px solid $title;
     border-radius: .5rem;
     margin-top: .6rem;
     padding: .3rem;
 }
 #submit-btn {
     width: auto;
-    color: white;
+    color: $content-div-background;
     padding: .3rem 1rem;
-    background-color: #006eff;
+    background-color: $submit-btn;
     bottom: 0;
     left: 0;
     border: none;
@@ -43,6 +43,6 @@
         cursor: pointer;
         bottom: .3rem;
         left: .3rem;
-        box-shadow: -.3rem .3rem black;
+        box-shadow: -.3rem .3rem $title;
     }
 }
