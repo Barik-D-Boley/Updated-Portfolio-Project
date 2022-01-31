@@ -30,16 +30,6 @@ let Projects = [
         "Notable": true
     },
     {
-        "ProjectName": "Code Wars Code",
-        "GithubLink": "https://github.com/xBarikadex/Code-Wars-Code",
-        "DateCreated": "October 24, 2021",
-        "LibraryUsed": "Vanilla",
-        "WebsiteLink": "",
-        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
-        "CoverImage": "",
-        "Notable": false
-    },
-    {
         "ProjectName": "Creating an API",
         "GithubLink": "https://github.com/xBarikadex/Creating-an-API",
         "DateCreated": "November 7, 2021",
@@ -86,7 +76,7 @@ let Projects = [
         "LibraryUsed": "React",
         "WebsiteLink": "https://menu-project-boley.netlify.app/",
         "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
-        "CoverImage": "",
+        "CoverImage": "/static/media/Menu_Project.d9b7b008.PNG",
         "Notable": true
     },
     {
