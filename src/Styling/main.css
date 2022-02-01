@@ -854,7 +854,7 @@ li.no-columns-list {
 .alert-info {
   display: flex;
   background-color: #ffffff;
-  width: 20vw;
+  width: 20rem;
   height: 15vh;
   border-radius: 0.5rem;
   display: flex;

@@ -24,7 +24,7 @@ let Projects = [
         "GithubLink": "https://github.com/xBarikadex/Store-API",
         "DateCreated": "December 12, 2021",
         "LibraryUsed": "NodeJS",
-        "WebsiteLink": "",
+        "WebsiteLink": "https://store-api-boley.herokuapp.com/index.html",
         "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
         "CoverImage": "",
         "Notable": true
@@ -94,7 +94,7 @@ let Projects = [
         "GithubLink": "https://github.com/xBarikadex/Task-Manager",
         "DateCreated": "December 12, 2021",
         "LibraryUsed": "NodeJS",
-        "WebsiteLink": "",
+        "WebsiteLink": "https://task-manager-boley.herokuapp.com/",
         "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
         "CoverImage": "",
         "Notable": false
@@ -124,7 +124,7 @@ let Projects = [
         "GithubLink": "https://github.com/xBarikadex/SCSS-Base-Components",
         "DateCreated": "August 15, 2021",
         "LibraryUsed": "Vanilla",
-        "WebsiteLink": "",
+        "WebsiteLink": "https://xbarikadex.github.io/SCSS-Base-Components/",
         "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
         "CoverImage": "",
         "Notable": false
@@ -134,7 +134,7 @@ let Projects = [
         "GithubLink": "https://github.com/xBarikadex/Portfolio-Project",
         "DateCreated": "January 31, 2021",
         "LibraryUsed": "Bootstrap",
-        "WebsiteLink": "",
+        "WebsiteLink": "https://xbarikadex.github.io/Portfolio-Project/",
         "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
         "CoverImage": "",
         "Notable": true
@@ -144,17 +144,7 @@ let Projects = [
         "GithubLink": "https://github.com/xBarikadex/Middleware-Api-Restriction",
         "DateCreated": "November 14, 2021",
         "LibraryUsed": "NodeJS",
-        "WebsiteLink": "",
-        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
-        "CoverImage": "",
-        "Notable": false
-    },
-    {
-        "ProjectName": "React Navbar",
-        "GithubLink": "https://github.com/xBarikadex/react-navbar",
-        "DateCreated": "September 19, 2021",
-        "LibraryUsed": "React",
-        "WebsiteLink": "",
+        "WebsiteLink": "https://middleware-api-restriction-bol.herokuapp.com/",
         "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
         "CoverImage": "",
         "Notable": false
@@ -164,7 +154,7 @@ let Projects = [
         "GithubLink": "https://github.com/Eves259/Group-Car-Website",
         "DateCreated": "January 24, 2021",
         "LibraryUsed": "Vanilla",
-        "WebsiteLink": "",
+        "WebsiteLink": "https://eves259.github.io/Group-Car-Website/gallery.html",
         "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
         "CoverImage": "",
         "Notable": false
@@ -174,7 +164,7 @@ let Projects = [
         "GithubLink": "https://github.com/xBarikadex/Doors",
         "DateCreated": "November 1, 2020",
         "LibraryUsed": "Vanilla",
-        "WebsiteLink": "",
+        "WebsiteLink": "https://xbarikadex.github.io/Doors/",
         "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
         "CoverImage": "",
         "Notable": false
@@ -204,7 +194,7 @@ let Projects = [
         "GithubLink": "https://github.com/xBarikadex/React-Project",
         "DateCreated": "May 2, 2021",
         "LibraryUsed": "React",
-        "WebsiteLink": "",
+        "WebsiteLink": "https://task-tracker-boley.netlify.app/",
         "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
         "CoverImage": "",
         "Notable": false
