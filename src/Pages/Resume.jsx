@@ -25,7 +25,7 @@ function Resume() {
                         <div className="contact-div"><a className="resume-text" href="mailto:barik.boley@gmail.com">barik.boley@gmail.com <MdEmail className="resume-icon" /></a></div>
                         <div className="contact-div"><a className="resume-text" href="tel:602-668-6436">(602) 668-6436 <FaPhoneAlt className="resume-icon" /></a></div>
                         <div className="contact-div"><a className="resume-text" href="https://www.google.com/maps/place/Phoenix,+AZ/@33.6050991,-112.4052323,10z/data=!3m1!4b1!4m5!3m4!1s0x872b12ed50a179cb:0x8c69c7f8354a1bac!8m2!3d33.4483771!4d-112.0740373" target="_blank" rel="noreferrer">Phoenix, United States <MdLocationOn className="resume-icon" /></a></div>
-                        <div className="contact-div"><a className="resume-text" href="https://github.com/BarikBoley" target="_blank" rel="noreferrer">github.com/BarikBoley <BsGithub className="resume-icon" /></a></div>
+                        <div className="contact-div"><a className="resume-text" href="https://github.com/xBarikadex" target="_blank" rel="noreferrer">github.com/xBarikadex <BsGithub className="resume-icon" /></a></div>
                     </div>
                 </div>
 

@@ -10,14 +10,15 @@ body {
 .website-container-div {
     display: flex;
     justify-content: center;
-    margin-top: 15vh;
+    margin-top: 11vh;
 }
 .container-div {
     background-color: $content-div-background;
     border-radius: 1.5rem;
     display: flex;
-    width: 70%;
-        justify-content: center;
+    width: 85%;
+    padding: 2rem;
+    justify-content: space-around;
     h1 {
         color: $title;
         font-size: 4rem;
@@ -29,37 +30,5 @@ body {
     p {
         color: $text;
         font-size: 1.5rem;
-    }
-}
-
-// Example Phone Layout
-.phone-portrait {
-    width: 412px;
-    height: 915px;
-    .footer {
-        width: 412px;
-    }
-}
-.phone-landscape {
-    width: 915px;
-    height: 412px;
-    .footer {
-        width: 915px;
-    }
-}
-
-// Example Tablet Layout
-.tablet-portrait {
-    width: 820px;
-    height: 1180px;
-    .footer {
-        width: 820px;
-    }
-}
-.tablet-landscape {
-    width: 1180px;
-    height: 820px;
-    .footer {
-        width: 1180px;
     }
 }
