@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../Components/Navbar";
+import Navbar from "../Components/navbar";
 import Footer from "../Components/footer";
 // import Carousel from "../Components/carousel";
 import AllProjects from "../Components/projectCards";

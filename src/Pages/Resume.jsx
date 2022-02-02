@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../Components/Navbar";
+import Navbar from "../Components/navbar";
 import Footer from "../Components/footer";
 import { MdEmail, MdLocationOn } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";

@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
-import Navbar from "../Components/Navbar";
+import Navbar from "../Components/navbar";
 import Footer from "../Components/footer";
 import { MdClose } from 'react-icons/md';
 
