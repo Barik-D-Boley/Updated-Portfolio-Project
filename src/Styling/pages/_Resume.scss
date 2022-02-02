@@ -6,9 +6,10 @@
     background-color: $resume-background;
     margin: 0 auto;
     padding: 3.5rem;
-    width: 70rem;
+    width: 77rem;
     border-radius: 1rem;
     flex-direction: column;
+    box-sizing: border-box;
     h1 {
         font-size: 3rem;
     }
@@ -46,7 +47,7 @@
     margin-bottom: 1rem;
 
     #resume-contacts {
-        text-align: end;
+        text-align: right;
         flex-direction: column;
 
         .contact-div {
@@ -156,5 +157,53 @@ li.no-columns-list {
     justify-content: space-between;
     p {
         display: inline-flex;
+    }
+}
+
+@media screen and (max-width: 77rem) {
+    #resume-container {
+        width: 38.5rem;
+    }
+    #resume-bottom {
+        flex-direction: column;
+    }
+    #resume-bottom {
+        .column {
+            width: 100%;
+        }
+    }
+    .center-text {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    #resume-container {
+        padding: 3rem 1rem;
+    }
+    
+    #resume-top {
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+        #resume-contacts {
+            margin-top: 1rem;
+            text-align: center;
+            align-self: center;
+            a {
+                color: $text;
+            }
+        }
+    }
+
+    .center-text {
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .experience-list {
+        flex-direction: column;
+    }
+    li.resume-text {
+        width: 100%;
     }
 }

@@ -1,4 +1,4 @@
-$top: 40.3rem;
+$top: 40.3rem !global;
 
 .bracket-pair {
     position: absolute;
@@ -40,3 +40,77 @@ $top: 40.3rem;
             height: 7rem;
         }
     }
+
+@media screen and (max-width: 77rem) {
+    $top: 41.7rem;
+    .bracket-pair {
+        width: 29.6rem;
+    }
+    #brackets_1 {
+        top: $top;
+        div {
+            height: 3.5rem;
+        }
+    }
+    #brackets_2 {
+        top: $top+11.7rem;
+        div {
+            height: 6.3rem;
+        }
+    }
+    #brackets_3 {
+        top: $top+36.3rem;
+        div {
+            height: 5.5rem;
+        }
+    }
+    #brackets_4 {
+        top: $top+56;
+        div {
+            height: 7rem;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    $top: 39rem;
+    .bracket-pair {
+        width: 29.6rem;
+    }
+    #resume-container {
+        max-width: 100%;
+    }
+    #brackets_1 {
+        top: $top;
+        div {
+            height: 3.5rem;
+        }
+    }
+    #brackets_2 {
+        top: $top+11.7rem;
+        div {
+            height: 6.3rem;
+        }
+    }
+    #brackets_3 {
+        top: $top+36.3rem;
+        div {
+            height: 5.5rem;
+        }
+    }
+    #brackets_4 {
+        top: $top+56;
+        div {
+            height: 7rem;
+        }
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .opening-bracket {
+        display: none;
+    }
+    .closing-bracket {
+        display: none;
+    }
+}

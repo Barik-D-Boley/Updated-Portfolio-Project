@@ -1,8 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
-import Navbar from "../Components/navbar";
+import Navbar from "../Components/Navbar";
 import Footer from "../Components/footer";
-// import Alert from "../Components/alert";
 import { MdClose } from 'react-icons/md';
 
 function ContactMe() {

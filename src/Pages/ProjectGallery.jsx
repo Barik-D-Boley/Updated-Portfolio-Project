@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../Components/navbar";
+import Navbar from "../Components/Navbar";
 import Footer from "../Components/footer";
 // import Carousel from "../Components/carousel";
 import AllProjects from "../Components/projectCards";
@@ -13,7 +13,7 @@ function ProjectGallery() {
             <div className="website-container-div">
                 <div id="gallery" className="container-div">
                     <h1>Project Gallery</h1>
-                    <p>A list of all the projects I've completed for my West MEC class</p>
+                    <p>A list of every project I've completed for my West MEC class</p>
                 </div>
 
             </div>

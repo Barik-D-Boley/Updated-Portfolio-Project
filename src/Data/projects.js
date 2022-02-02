@@ -20,7 +20,7 @@ let Projects = [
         "LibraryUsed": "React",
         "WebsiteLink": "https://updated-portfolio-boley.netlify.app/",
         "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
-        // "CoverImage": require("../Images/.PNG").default,
+        "CoverImage": require("../Images/Updated_Portfolio_Project.PNG").default,
         "Notable": true
     },
     {
@@ -38,9 +38,9 @@ let Projects = [
         "GithubLink": "https://github.com/xBarikadex/Creating-an-API",
         "DateCreated": "November 7, 2021",
         "LibraryUsed": "NodeJS",
-        "WebsiteLink": "",
+        "WebsiteLink": "https://creating-an-api-boley.herokuapp.com/",
         "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
-        // "CoverImage": require("../Images/.PNG").default,
+        "CoverImage": require("../Images/Creating_an_API.PNG").default,
         "Notable": true
     },
     {

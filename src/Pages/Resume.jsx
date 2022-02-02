@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../Components/navbar";
+import Navbar from "../Components/Navbar";
 import Footer from "../Components/footer";
 import { MdEmail, MdLocationOn } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -31,7 +31,7 @@ function Resume() {
 
                 {/* Resume Statement */}
                 <div>
-                    <p className="resume-text">Hoping to find an entry-level position to gain practical experience and grow my inter-personal skills. Eager and motivated to help the customer support department.</p>
+                    <p className="resume-text center-text">Hoping to find an entry-level position to gain practical experience and grow my inter-personal skills. Eager and motivated to help the customer support department.</p>
                 </div>  
 
                 {/* Resume Bottom */}

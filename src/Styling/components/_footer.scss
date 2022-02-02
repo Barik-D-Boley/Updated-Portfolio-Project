@@ -9,6 +9,15 @@
     bottom: 0;
     height: 1.6rem;
 }
+.footer-line {
+    &::after {
+        content: " |";
+    }
+    &:last-child::after {
+        content: none;
+    }
+    padding: 0 .175rem;
+}
 .position-relative {
     position: relative;
     margin-top: 3rem;
@@ -16,8 +25,19 @@
 #contact-me {
     text-decoration: none;
     color: $footer-text;
-    padding: 0 .175rem;
     &:hover {
         color: $footer-text-hover;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .footer {
+        flex-direction: column;
+        height: 6rem;
+    }
+    .footer-line {
+        &::after {
+            content: none;
+        }
     }
 }

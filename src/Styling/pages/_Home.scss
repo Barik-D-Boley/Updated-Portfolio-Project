@@ -50,9 +50,31 @@
 }
 .icon {
     font-size: 4rem;
-    color: black;
+    margin-right: 1rem;
+}
+
+#phone-icon {
+    color: $phone;
     &:hover {
-        color: $linkedin;
+        color: $submit-btn;
+    }
+}
+#email-icon {
+    color: $email;
+    &:hover {
+        color: $email-hover;
+    }
+}
+#linkedin-icon {
+    color: $linkedin;
+    &:hover {
+        color: $linkedin-hover;
+    }
+}
+#github-icon {
+    color: $github;
+    &:hover {
+        color: $github-hover;
     }
 }
 
@@ -68,8 +90,8 @@
         margin: auto 0;
     }
     #footer {
-        position: relative;
         margin-top: 3rem;
+        position: relative;
     }
     #socials {
         margin: 0;
