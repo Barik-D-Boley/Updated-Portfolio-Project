@@ -14,8 +14,9 @@ function infoBox() {
                     <h2 className="project-title">{ProjectName}</h2><a href={WebsiteLink} target="_blank" rel="noreferrer" className="website-link" ><BiLinkExternal /></a>
                     <p>Created on {DateCreated}</p>
                     <p>Library Used: {LibraryUsed}</p>
-                    <div className="github-link"><a href={GithubLink} target="_blank" rel="noreferrer">View on Github</a></div><hr />
-                    <p className="description">{Description}</p>
+                    <div className="github-link" style={{marginBottom: ".7rem"}}><a href={GithubLink} target="_blank" rel="noreferrer">View on Github</a></div>
+                    {/* <hr />
+                    <p className="description">{Description}</p> */}
                 </div>
             </div>
         )

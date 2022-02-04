@@ -576,7 +576,7 @@ body {
     margin: auto 0;
   }
 
-  #footer {
+  .homepage #footer {
     margin-top: 3rem;
     position: relative;
   }
@@ -995,6 +995,11 @@ li.no-columns-list {
 
   li.resume-text {
     width: 100%;
+    padding-right: 0;
+  }
+
+  .experience-list {
+    width: auto;
   }
 }
 /* Components */
