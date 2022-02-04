@@ -5,7 +5,7 @@ import { BiLinkExternal } from "react-icons/bi";
 function infoBox() {
     let stuff = [];
     for (let i = 0; i < Projects.length; i++) {
-        const { ProjectName, GithubLink, DateCreated, LibraryUsed, WebsiteLink, Description, CoverImage } = Projects[i];
+        const { ProjectName, GithubLink, DateCreated, LibraryUsed, WebsiteLink, /* Description, */ CoverImage } = Projects[i];
 
         stuff.push(  
             <div className="project-card" key={i}>
