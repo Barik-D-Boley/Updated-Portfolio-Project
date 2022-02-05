@@ -22,9 +22,10 @@
     position: relative;
     margin-top: 3rem;
 }
-#contact-me {
+.footer-link {
     text-decoration: none;
     color: $footer-text;
+    transition: color 0.2s ease;
     &:hover {
         color: $footer-text-hover;
     }

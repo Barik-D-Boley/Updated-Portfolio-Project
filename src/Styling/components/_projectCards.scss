@@ -7,7 +7,7 @@
     position: relative;
     background-color: $content-div-background;
     display: inline-flex;
-    width: 19rem;
+    width: 30rem;
     border-radius: 1rem;
     flex-direction: column;
     margin-bottom: 2rem;
@@ -26,6 +26,7 @@
     border-radius: 1rem;
     object-fit: cover;
     border-bottom: .3rem solid black;
+    max-height: 17rem;
 }
 .project-card-info {
     margin: 0 1vw;

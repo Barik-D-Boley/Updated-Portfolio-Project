@@ -1,4 +1,4 @@
-$top: 40.3rem !global;
+$brackets-top: 40.3rem !global;
 
 .bracket-pair {
     position: absolute;
@@ -17,55 +17,55 @@ $top: 40.3rem !global;
     width: 1rem;
 }
     #brackets_1 {
-        top: $top;
+        top: $brackets-top;
         div {
             height: 3.5rem;
         }
     }
     #brackets_2 {
-        top: $top+11.7rem;
+        top: $brackets-top+11.7rem;
         div {
             height: 6.3rem;
         }
     }
     #brackets_3 {
-        top: $top+36.3rem;
+        top: $brackets-top+36.3rem;
         div {
             height: 5.5rem;
         }
     }
     #brackets_4 {
-        top: $top+54.4;
+        top: $brackets-top+54.4;
         div {
             height: 7rem;
         }
     }
 
 @media screen and (max-width: 77rem) {
-    $top: 41.7rem;
+    $brackets-top: 41.7rem;
     .bracket-pair {
         width: 29.6rem;
     }
     #brackets_1 {
-        top: $top;
+        top: $brackets-top;
         div {
             height: 3.5rem;
         }
     }
     #brackets_2 {
-        top: $top+11.7rem;
+        top: $brackets-top+11.7rem;
         div {
             height: 6.3rem;
         }
     }
     #brackets_3 {
-        top: $top+36.3rem;
+        top: $brackets-top+36.3rem;
         div {
             height: 5.5rem;
         }
     }
     #brackets_4 {
-        top: $top+56;
+        top: $brackets-top+56;
         div {
             height: 7rem;
         }
@@ -73,7 +73,7 @@ $top: 40.3rem !global;
 }
 
 @media screen and (max-width: 800px) {
-    $top: 39rem;
+    $brackets-top: 39rem;
     .bracket-pair {
         width: 29.6rem;
     }
@@ -81,25 +81,25 @@ $top: 40.3rem !global;
         max-width: 100%;
     }
     #brackets_1 {
-        top: $top;
+        top: $brackets-top;
         div {
             height: 3.5rem;
         }
     }
     #brackets_2 {
-        top: $top+11.7rem;
+        top: $brackets-top+11.7rem;
         div {
             height: 6.3rem;
         }
     }
     #brackets_3 {
-        top: $top+36.3rem;
+        top: $brackets-top+36.3rem;
         div {
             height: 5.5rem;
         }
     }
     #brackets_4 {
-        top: $top+56;
+        top: $brackets-top+56;
         div {
             height: 7rem;
         }

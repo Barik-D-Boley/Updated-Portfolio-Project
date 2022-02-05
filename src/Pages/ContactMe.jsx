@@ -1,7 +1,13 @@
+// Misc
 import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
+import { Helmet } from 'react-helmet';
+
+// Components
 import Navbar from "../Components/navbar";
 import Footer from "../Components/footer";
+
+// Icons
 import { MdClose } from 'react-icons/md';
 
 function ContactMe() {
@@ -38,6 +44,10 @@ function ContactMe() {
 
     return (
         <div>
+            <Helmet>
+                <title>Contact Me</title>
+            </Helmet>
+
             {/* Alert Box */}
             <div className={`${(active === true) ? "active-alert-box" : "inactive-alert-box"}`}>
 

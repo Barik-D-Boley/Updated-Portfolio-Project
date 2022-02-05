@@ -45,6 +45,16 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 1rem;
+    #print-btn {
+        background: none;
+        border: none;
+        font-size: 2rem;
+        color: $link-hover;
+        &:hover {
+            color: $link;
+            cursor: pointer;
+        }
+    }
 
     #resume-contacts {
         text-align: right;
@@ -60,10 +70,16 @@
                 }
                 .resume-icon {
                     color: $resume-subtitles;
+                    position: relative;
+                    top: .2rem
                 }
             }
         }
     }
+}
+
+#resume-website-link {
+    display: none;
 }
 
 #resume-bottom {
@@ -83,6 +99,7 @@
     color: $resume-text;
     font-size: 1.3rem;
     margin-bottom: 0;
+    transition: color 0.2s ease;
 }
 .resume-description {
     color: $resume-descriptions;
@@ -209,5 +226,92 @@ li.no-columns-list {
     }
     .experience-list {
         width: auto;
+    }
+}
+
+@page { size: auto;  margin: 0mm; }
+
+@media print {
+
+    // Main Page
+    body {
+        background: none;
+    }
+    #navbar {
+        display: none;
+        margin: 0;
+    }
+    #nav-title {
+        display: none;
+    }
+    #print-btn {
+        display: none;
+    }
+    #resume-website-link {
+        display: block;
+    }
+    #resume-container {
+        position: relative;
+        bottom: 4rem;
+        background: none;
+        hr {
+            display: block;
+            height: 1px;
+            width: 100%;
+            border: none;
+            border-top: solid .2rem black;
+        }
+        h3 {
+            margin-top: 3.5rem;
+        }
+    }
+    .skill-box {
+        -webkit-print-color-adjust: exact;
+    }
+    #interests {
+        position: relative;
+        bottom: 1.5rem;
+    }
+    #footer {
+        display: none;
+    }
+
+    // Brackets Positioning
+    $brackets-top: 33.3rem;
+    .bracket-pair {
+        width: 31.5rem;
+    }
+    #brackets_1 {
+        top: $brackets-top;
+        div {
+            height: 3.5rem;
+        }
+    }
+    #brackets_2 {
+        top: $brackets-top+11.7rem;
+        div {
+            height: 6.3rem;
+        }
+    }
+    #brackets_3 {
+        top: $brackets-top+36rem;
+        div {
+            height: 5.5rem;
+        }
+    }
+    #brackets_4 {
+        top: $brackets-top+54.2;
+        div {
+            height: 7rem;
+        }
+    }
+
+    // Dots Positioning
+    $dots-top: 26.8rem;
+    #dots_1 {
+        top: $dots-top;
+    }
+    #dots_2 {
+        top: $dots-top+34rem;
     }
 }

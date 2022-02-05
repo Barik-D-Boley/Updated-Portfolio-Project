@@ -1,13 +1,22 @@
+// Misc
 import React from "react";
+import { Helmet } from 'react-helmet';
+
+// Components
 import Navbar from "../Components/navbar";
 import Footer from "../Components/footer";
-import { MdEmail, MdLocationOn } from "react-icons/md";
-import { FaPhoneAlt } from "react-icons/fa";
+
+// Icons
+import { MdEmail, MdLocationOn, MdOutlineWeb } from "react-icons/md";
+import { FaPhoneAlt, FaPrint } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 
 function Resume() {
     return (
         <div>
+            <Helmet>
+                <title>Barik's Resume</title>
+            </Helmet>
             <Navbar active={"resume"} />
 
             <div id="resume-container">
@@ -18,6 +27,7 @@ function Resume() {
                     <div>
                         <h1>Barik Boley</h1>
                         <h2>Full Stack Web Developer</h2>
+                        <button id="print-btn" onClick={() => window.print()}><FaPrint /></button>
                     </div>
 
                     {/* Contacts */}
@@ -26,12 +36,13 @@ function Resume() {
                         <div className="contact-div"><a className="resume-text" href="tel:602-668-6436">(602) 668-6436 <FaPhoneAlt className="resume-icon" /></a></div>
                         <div className="contact-div"><a className="resume-text" href="https://www.google.com/maps/place/Phoenix,+AZ/@33.6050991,-112.4052323,10z/data=!3m1!4b1!4m5!3m4!1s0x872b12ed50a179cb:0x8c69c7f8354a1bac!8m2!3d33.4483771!4d-112.0740373" target="_blank" rel="noreferrer">Phoenix, United States <MdLocationOn className="resume-icon" /></a></div>
                         <div className="contact-div"><a className="resume-text" href="https://github.com/xBarikadex" target="_blank" rel="noreferrer">github.com/xBarikadex <BsGithub className="resume-icon" /></a></div>
+                        <div className="contact-div" id="resume-website-link"><a className="resume-text" href="barikboley.com" target="_blank" rel="noreferrer">barikboley.com <MdOutlineWeb className="resume-icon" /></a></div>
                     </div>
                 </div>
 
                 {/* Resume Statement */}
                 <div>
-                    <p className="resume-text center-text">Hoping to find an entry-level position to gain practical experience and grow my inter-personal skills. Eager and motivated to help the customer support department.</p>
+                    <p className="resume-text center-text">Actively seeking an entry-level position to gain practical experience and grow my professional skills. Eager and motivated to help the customer support department.</p>
                 </div>  
 
                 {/* Resume Bottom */}
@@ -44,9 +55,9 @@ function Resume() {
                             {/* Web Development */}
                             <div className="text-boxes">
                                 <h4 className="experience-title">Full Stack Web Development</h4>
-                                <h4 className="experience-subtitle">West MEC</h4>
+                                <h4 className="experience-subtitle">West MEC - Technical Training Education</h4>
                                 <div className="inline-date-container">
-                                    <p className="resume-subtitles">08/2020 - 05/2022</p>
+                                    <p className="resume-subtitles">08/2020 - Exp. Grad 05/2022</p>
                                     <p className="resume-subtitles">3.75 GPA</p>
                                 </div>
                                 <div>
@@ -67,13 +78,13 @@ function Resume() {
                             {/* Engineering */}
                             <div className="text-boxes">
                                 <h4 className="experience-title">CTE Engineering</h4>
-                                <h4 className="experience-subtitle">Boulder Creek</h4>
+                                <h4 className="experience-subtitle">Boulder Creek High School</h4>
                                 <div className="inline-date-container">
-                                    <p className="resume-subtitles">08/2018 - 05/2022</p>
+                                    <p className="resume-subtitles">08/2018 - Exp. Grad 05/2022</p>
                                     <p className="resume-subtitles">3.88 GPA</p>
                                 </div>
                                 <div>
-                                    <p className="list-title">Courses</p>
+                                    <p className="list-title">Technical Courses</p>
                                     <ul className="experience-list">
                                         <li className="resume-text">Introduction to Engineering</li>
                                         <li className="resume-text">Principles of Engineering</li>
@@ -205,7 +216,7 @@ function Resume() {
                             <h3>Organizations</h3><hr/>
 
                             <div className="text-boxes">
-                                <p className="resume-text">FBLA (08/2020 - 05/2022)</p>
+                                <p className="resume-text">Future Business Leaders of America (08/2020 - 05/2022)</p>
                                 <p className="resume-text">Boys Scouts of America (03/2016 - 12/2019)</p>
                                 <p className="resume-description">Eagle Scout</p>
                             </div>
@@ -228,7 +239,7 @@ function Resume() {
                         <div>
                             <h3>Interests</h3><hr/>
 
-                            <div className="text-boxes">
+                            <div className="text-boxes" id="interests">
                                 <div className="resume-text interest-box">Lifting Weights</div>
                                 <div className="resume-text interest-box">Building Computers</div>
                             </div>

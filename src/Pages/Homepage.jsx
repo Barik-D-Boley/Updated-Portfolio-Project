@@ -1,7 +1,13 @@
+// Misc
 import React from "react";
+import profilePicture from "../Images/Portrait.jpg";
+import { Helmet } from 'react-helmet';
+
+// Components
 import Navbar from "../Components/navbar";
 import Footer from "../Components/footer";
-import profilePicture from "../Images/Portrait.jpg";
+
+// Icons
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
@@ -10,6 +16,9 @@ import { BsLinkedin, BsGithub } from "react-icons/bs";
 function Homepage() {
     return (
         <div className="homepage">
+            <Helmet>
+                <title>Homepage</title>
+            </Helmet>
             <Navbar active={"homepage"} />
             <div className="website-container-div">
                 <div className="homepage-container-div">
@@ -19,7 +28,7 @@ function Homepage() {
                     <div id="profile-information">
                         <h1>Barik Boley</h1>
                         <h3>Full-Stack Web Developer</h3>
-                        <div><p id="homepage-description">My name is Barik Boley, and I am Full-Stack Web Developer gaining experience as a working professional. I've worked summer jobs the past two summers, and have dedicated the rest of my time to education. I currently attend a trade school called <a href="https://west-mec.edu/" target="_blank" rel="noreferrer">West MEC</a>, which I am on track to graduate from with two Microsoft certifications and a knowledge of HTML, CSS, JS, React, and NodeJS. On top of that, I'm finishing a 4 year Engineering course at my high school, and have received a Computer Assisted Design certification. </p></div>
+                        <div><p id="homepage-description">My name is Barik Boley, and I am Full-Stack Web Developer gaining experience as a working professional. I've worked summer jobs the past two summers, and have dedicated the rest of my time to education. I currently attend a technical training school called <a href="https://west-mec.edu/" target="_blank" rel="noreferrer">West MEC</a>, which I am on track to graduate from with a knowledge of React, a knowledge NodeJS, and two professional certifications: The Microsoft Technology Associate HTML5 Application Development Fundamentals certification, and the Certified Internet Web JavaScript Specialist certification. On top of that, I'm finishing a 4 year Engineering course at my high school, and have received a Computer Assisted Design certification. </p></div>
                         <div id="socials">
                             <a href="sms:602-668-6436"><FaPhoneAlt id="phone-icon" className="icon" /></a>
                             <a href="/contact"><MdEmail id="email-icon" className="icon" /></a>

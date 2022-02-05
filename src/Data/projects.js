@@ -54,23 +54,23 @@ let Projects = [
         "Notable": true
     },
     {
-        "ProjectName": "React Component Practice",
-        "GithubLink": "https://github.com/xBarikadex/React-Component-Practice",
-        "DateCreated": "September 12, 2021",
-        "LibraryUsed": "React",
-        "WebsiteLink": "https://react-component-practice-boley.netlify.app/",
+        "ProjectName": "Gamecube Website",
+        "GithubLink": "https://github.com/SchoolPotato/BootStrapGroupWebsite",
+        "DateCreated": "April 14, 2021",
+        "LibraryUsed": "Bootstrap",
+        "WebsiteLink": "https://schoolpotato.github.io/BootStrapGroupWebsite/",
         "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
-        "CoverImage": require("../Images/React_Components.PNG").default,
-        "Notable": false
+        "CoverImage": require("../Images/Gamecube_Website.PNG").default,
+        "Notable": true
     },
     {
-        "ProjectName": "Loading and Error Page",
-        "GithubLink": "https://github.com/xBarikadex/Loading-and-Error-Page",
-        "DateCreated": "September 5, 2021",
-        "LibraryUsed": "React",
-        "WebsiteLink": "https://loading-and-error-page-boley.netlify.app/",
+        "ProjectName": "Portfolio Project",
+        "GithubLink": "https://github.com/xBarikadex/Portfolio-Project",
+        "DateCreated": "January 31, 2021",
+        "LibraryUsed": "Bootstrap",
+        "WebsiteLink": "https://xbarikadex.github.io/Portfolio-Project/",
         "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
-        "CoverImage": require("../Images/Loading_and_Error.PNG").default,
+        "CoverImage": require("../Images/Portfolio_Project.PNG").default,
         "Notable": false
     },
     {
@@ -94,6 +94,26 @@ let Projects = [
         "Notable": true
     },
     {
+        "ProjectName": "React Component Practice",
+        "GithubLink": "https://github.com/xBarikadex/React-Component-Practice",
+        "DateCreated": "September 12, 2021",
+        "LibraryUsed": "React",
+        "WebsiteLink": "https://react-component-practice-boley.netlify.app/",
+        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
+        "CoverImage": require("../Images/React_Components.PNG").default,
+        "Notable": true
+    },
+    {
+        "ProjectName": "Loading and Error Page",
+        "GithubLink": "https://github.com/xBarikadex/Loading-and-Error-Page",
+        "DateCreated": "September 5, 2021",
+        "LibraryUsed": "React",
+        "WebsiteLink": "https://loading-and-error-page-boley.netlify.app/",
+        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
+        "CoverImage": require("../Images/Loading_and_Error.PNG").default,
+        "Notable": false
+    },
+    {
         "ProjectName": "Task Manager",
         "GithubLink": "https://github.com/xBarikadex/Task-Manager",
         "DateCreated": "December 12, 2021",
@@ -103,26 +123,16 @@ let Projects = [
         "CoverImage": require("../Images/Task_Manager.PNG").default,
         "Notable": false
     },
-/*     {
-        "ProjectName": "Vet Project",
-        "GithubLink": "https://github.com/TheCapn-MEC/vetProject",
-        "DateCreated": "January 16, 2022",
-        "LibraryUsed": "NodeJS",
-        "WebsiteLink": "",
-        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
-        // "CoverImage": require("../Images/Vet_Project.PNG").default,
-        "Notable": true
-    }, */
-    {
-        "ProjectName": "Portfolio Project",
-        "GithubLink": "https://github.com/xBarikadex/Portfolio-Project",
-        "DateCreated": "January 31, 2021",
-        "LibraryUsed": "Bootstrap",
-        "WebsiteLink": "https://xbarikadex.github.io/Portfolio-Project/",
-        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
-        "CoverImage": require("../Images/Portfolio_Project.PNG").default,
-        "Notable": true
-    },
+    // {
+    //     "ProjectName": "Vet Project",
+    //     "GithubLink": "https://github.com/TheCapn-MEC/vetProject",
+    //     "DateCreated": "January 16, 2022",
+    //     "LibraryUsed": "NodeJS",
+    //     "WebsiteLink": "",
+    //     "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
+    //     // "CoverImage": require("../Images/Vet_Project.PNG").default,
+    //     "Notable": true
+    // },
     {
         "ProjectName": "Group Car Website",
         "GithubLink": "https://github.com/Eves259/Group-Car-Website",
@@ -182,16 +192,6 @@ let Projects = [
         "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
         "CoverImage": require("../Images/PokeDex.PNG").default,
         "Notable": false
-    },
-    {
-        "ProjectName": "Gamecube Website",
-        "GithubLink": "https://github.com/SchoolPotato/BootStrapGroupWebsite",
-        "DateCreated": "April 14, 2021",
-        "LibraryUsed": "Bootstrap",
-        "WebsiteLink": "https://schoolpotato.github.io/BootStrapGroupWebsite/",
-        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
-        "CoverImage": require("../Images/Gamecube_Website.PNG").default,
-        "Notable": true
     },
     {
         "ProjectName": "Calculator",
@@ -263,5 +263,5 @@ let Projects = [
         "CoverImage": require("../Images/Recipe_Article.PNG").default,
         "Notable": false
     }
-].sort((a, b) => new Date(a.DateCreated) - new Date(b.DateCreated)).reverse();
+].sort((a, b) => new Date(a.DateCreated) - new Date(b.DateCreated)).reverse().filter(project => project["Notable"] === true);
 export default Projects;

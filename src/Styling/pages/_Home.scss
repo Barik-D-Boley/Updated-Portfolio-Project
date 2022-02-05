@@ -45,14 +45,15 @@
         }
     }
 }
+
 #socials {
-    margin-top: 6rem;
+    margin-top: 2rem;
 }
 .icon {
     font-size: 4rem;
     margin-right: 1rem;
+    transition: color 0.2s ease;
 }
-
 #phone-icon {
     color: $phone;
     &:hover {
