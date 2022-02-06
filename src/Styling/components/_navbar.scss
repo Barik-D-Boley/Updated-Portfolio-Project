@@ -38,16 +38,15 @@
     padding: 0;
     background: none;
     border: none;
-    color: white;
-    position: absolute;
-    top: 1.5rem;
-    left: 2rem;
+    color: $title;
+    position: relative;
     display: none;
     flex-direction: column;
     justify-content: space-between;
     font-size: 2rem;
     transition: transform 0.3s ease;
     transform: rotate(0);
+    margin-right: .3rem
 }
 .navbar-toggle-btn-active {
     @extend .navbar-toggle-btn;
@@ -57,13 +56,29 @@
 
 @media (max-width: 800px) {
     #navbar {
+        position: sticky;
+        top: 0;
+        padding: .5rem;
         flex-direction: column;
-        margin: 1.5rem 2rem 2rem 1.5rem;
+        margin: 0;
+        margin-bottom: 1.5rem;
+        background-color: white;
+        box-shadow: 0 0 .1rem .1rem black;
 
     }
-    #barik {
+    #nav-top {
         display: flex;
-        align-self: flex-end;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #nav-title {
+        color: $title;
+    }
+    .nav-active {
+        color: $mob-nav-active;
+    }
+    .nav-inactive {
+        color: $mob-nav-inactive;
     }
     .navbar-toggle-btn {
         display: flex;
@@ -76,8 +91,9 @@
         width: 100%;
         flex-direction: column;
         margin: 0;
-        margin-left: .8rem;
-        align-items: flex-start;
+        margin-top: 1rem;
+        align-items: center;
+        background-color: #eaeaea;
     }
     .nav-page-link {
         padding: 0;
