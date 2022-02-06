@@ -1204,7 +1204,7 @@ li.no-columns-list {
   color: white;
   position: absolute;
   top: 1.5rem;
-  right: 2rem;
+  left: 2rem;
   display: none;
   flex-direction: column;
   justify-content: space-between;
@@ -1224,6 +1224,11 @@ li.no-columns-list {
     margin: 1.5rem 2rem 2rem 1.5rem;
   }
 
+  #barik {
+    display: flex;
+    align-self: flex-end;
+  }
+
   .navbar-toggle-btn, .navbar-toggle-btn-active {
     display: flex;
   }
@@ -1237,7 +1242,8 @@ li.no-columns-list {
     width: 100%;
     flex-direction: column;
     margin: 0;
-    align-items: flex-end;
+    margin-left: 0.8rem;
+    align-items: flex-start;
   }
 
   .nav-page-link {

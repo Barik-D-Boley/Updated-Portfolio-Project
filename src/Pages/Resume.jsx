@@ -61,7 +61,7 @@ function Resume() {
                                     <p className="resume-subtitles">3.75 GPA</p>
                                 </div>
                                 <div>
-                                    <p className="list-title">Courses</p>
+                                    <p className="list-title">Technical Courses</p>
                                     <ul className="experience-list columns-list">
                                         <li className="resume-text">Coding Fundamentals</li>
                                         <li className="resume-text">Coding III</li>
@@ -185,7 +185,7 @@ function Resume() {
                                 <div className="resume-text skill-box">Computer Skills</div>
                                 <div className="resume-text skill-box">Hard Working</div>
                                 <div className="resume-text skill-box">Dedicated</div>
-                                <div className="resume-text skill-box">Honest</div>
+                                <div className="resume-text skill-box">Troubleshooting</div>
                                 <div className="resume-text skill-box">Web Development</div>
                                 <div className="resume-text skill-box">Computer-Assisted Design</div>
                             </div>

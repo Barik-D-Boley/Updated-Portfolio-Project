@@ -8,7 +8,7 @@ function Navbar(active) {
     const { active:num } = active;
     return (
         <div id="navbar">
-            <div><Link to="/" id="nav-title">Barik Boley</Link></div>
+            <div id="barik"><Link to="/" id="nav-title">Barik Boley</Link></div>
             <button className={`${(dropDown === true) ? "navbar-toggle-btn-active" : "navbar-toggle-btn"}`} onClick={() => dropDown === false ? setDropDown(true) : setDropDown(false)}><GiHamburgerMenu /></button>
             <div className={`${(dropDown === true) ? "nav-drop-down" : "nav-pages"}`}>
                 <Link to="/" className={`nav-page-link ${(num === "homepage") ? "nav-active" : "nav-inactive"}`}>Homepage</Link>
