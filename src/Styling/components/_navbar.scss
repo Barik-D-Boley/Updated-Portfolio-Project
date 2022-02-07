@@ -1,5 +1,6 @@
 /* Navbar Container */
 #navbar {
+    z-index: 100;
     display: flex;
     justify-content: space-between;
     margin: 3rem 4rem;
@@ -38,7 +39,7 @@
     padding: 0;
     background: none;
     border: none;
-    color: $title;
+    color: #6b6b6b;
     position: relative;
     display: none;
     flex-direction: column;
@@ -63,7 +64,7 @@
         margin: 0;
         margin-bottom: 1.5rem;
         background-color: white;
-        box-shadow: 0 0 .1rem .1rem black;
+        box-shadow: 0 0 .1rem .2rem #0000007f;
 
     }
     #nav-top {

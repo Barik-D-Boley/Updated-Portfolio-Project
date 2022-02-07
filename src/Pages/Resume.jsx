@@ -239,7 +239,7 @@ function Resume() {
                         <div>
                             <h3>Interests</h3><hr/>
 
-                            <div className="text-boxes" id="interests">
+                            <div className="text-boxes">
                                 <div className="resume-text interest-box">Lifting Weights</div>
                                 <div className="resume-text interest-box">Building Computers</div>
                             </div>

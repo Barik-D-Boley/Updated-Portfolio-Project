@@ -236,10 +236,22 @@ li.no-columns-list {
     // Main Page
     body {
         background: none;
+        position: relative;
+        top: 3rem;
     }
     #navbar {
         display: none;
         margin: 0;
+        box-shadow: none;
+    }
+    .nav-drop-down {
+        display: none;
+    }
+    #nav-top {
+        display: none;
+    }
+    #drop-down-icon {
+        display: none;
     }
     #nav-title {
         display: none;
@@ -267,10 +279,6 @@ li.no-columns-list {
     }
     .skill-box {
         -webkit-print-color-adjust: exact;
-    }
-    #interests {
-        position: relative;
-        bottom: 1.5rem;
     }
     #footer {
         display: none;
