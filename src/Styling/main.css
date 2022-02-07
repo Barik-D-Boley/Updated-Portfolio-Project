@@ -730,6 +730,10 @@ body {
   font-size: 1.5rem;
 }
 
+iframe {
+  display: none;
+}
+
 @media screen and (max-width: 800px) {
   .website-container-div {
     margin-top: 3rem;
