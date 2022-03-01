@@ -10,6 +10,7 @@
     border-radius: 1rem;
     flex-direction: column;
     box-sizing: border-box;
+    margin-top: 6rem;
     h1 {
         font-size: 3rem;
     }
@@ -232,7 +233,6 @@ li.no-columns-list {
 @page { size: auto;  margin: 0mm; }
 
 @media print {
-
     // Main Page
     body {
         background: none;
