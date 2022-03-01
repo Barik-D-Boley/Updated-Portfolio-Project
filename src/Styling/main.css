@@ -807,7 +807,6 @@ body {
   background-attachment: fixed;
   background-size: cover;
   font-family: oswald;
-  min-height: 94.9vh;
   z-index: 7;
 }
 

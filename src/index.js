@@ -20,10 +20,9 @@ ReactDOM.render(
     <BrowserRouter>
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/" element={<Home />} />
-            <Route path="resume" element={<Resume />} />
-            <Route path="gallery" element={<Gallery />} />
-            <Route path="contact" element={<Contact />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/contact" element={<Contact />} />
         </Routes>
     </BrowserRouter>,
     document.getElementById("root")

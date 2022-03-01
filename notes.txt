@@ -1,0 +1,37 @@
+// Overall
+ - Improve the performance for lighthouse
+ - Get an actual favicon
+ - Make sure the page routing works from anywhere (a.k.a. typing "barikboley.com/resume" won't error)
+
+// Home
+ - Makes the icons better colors, and all either become darker or lighter on hover
+ - Footer needs repositioning at 1359px x 822px
+
+// Resume
+ - Make the brackets and connected dots on the resume page relative
+ - Fix the Print CSS for the resume
+ - Make the skills boxes pop up on hover
+ - Make the interest boxes change colors on hover
+ - Make the print button work for DuckDuckGo
+
+// Project Gallery
+ - Make a carousel that passes a data file into it, and dynamically displays the number of images there are based on how many images there are with titles, images, descriptions, and other info
+ - Add descriptions to all the projects
+ - Remove the gap in between the project images and the bottom border
+ - Make images links to the website alongside the link button
+ - Make the on-hovers transition colors
+ - Add all projects below the notable projects carousel
+ - Make the bottom row of projects always stay to the right
+
+// Contact Me
+ - Get the autofill to work on DuckDuckGo
+ - Make sure the x on the error/success page is always in the same spot
+
+// Navbar
+ - On mobile, make the navbar transition down instead of instantly coming down
+ - On mobile, make the page navigation buttons better
+
+// Future Plans
+ - Transfer all database info to MongoDB
+ - Add a login page for easy backend changes
+ - Add an admin page to add or edit projects
