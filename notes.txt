@@ -34,4 +34,8 @@
 // Future Plans
  - Transfer all database info to MongoDB
  - Add a login page for easy backend changes
- - Add an admin page to add or edit projects
+ - Use emails, not usernames for registering
+ - Add an admin page to add or edit projects in the project gallery
+ - Make a database for website updates that can be added to and changed when an admin is logged in
+ - Put website updates link in the footer
+ - Make it so only people who are logged in can send messages
