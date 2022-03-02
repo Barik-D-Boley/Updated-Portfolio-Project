@@ -8,8 +8,7 @@
  - Footer needs repositioning at 1359px x 822px
 
 // Resume
-!!! - Make the brackets and connected dots on the resume page relative
-!!! - Fix the Print CSS for the resume
+ - Make the brackets and connected dots on the resume page relative
  - Make the skills boxes pop up on hover
  - Make the interest boxes change colors on hover
  - Make the print button work for DuckDuckGo

@@ -1114,7 +1114,7 @@ iframe {
 }
 
 #dots_1 {
-  top: 33.5rem;
+  top: 33.7rem;
 }
 
 #line_1 {
@@ -1122,7 +1122,7 @@ iframe {
 }
 
 #dots_2 {
-  top: 68rem;
+  top: 68.2rem;
 }
 
 #line_2 {
@@ -1295,7 +1295,6 @@ iframe {
           flex-direction: column;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  margin-top: 6rem;
 }
 
 #resume-container h1 {

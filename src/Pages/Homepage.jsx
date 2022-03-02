@@ -10,7 +10,7 @@ import Footer from "../Components/footer";
 // Icons
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { BsLinkedin, BsGithub } from "react-icons/bs";
+import { /* BsLinkedin, */ BsGithub } from "react-icons/bs";
 
 
 function Homepage() {
