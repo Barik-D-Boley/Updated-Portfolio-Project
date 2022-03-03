@@ -5,7 +5,6 @@ body {
     background-attachment: fixed;
     background-size: cover;
     font-family: oswald;
-    min-height: 94.9vh;
     z-index: 7;
 }
 .website-container-div {
@@ -37,10 +36,4 @@ body {
 
 iframe {
     display: none;
-}
-
-@media screen and (max-width: 800px) {
-    .website-container-div {
-        margin-top: 3rem;
-    }
 }

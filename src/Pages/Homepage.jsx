@@ -10,7 +10,7 @@ import Footer from "../Components/footer";
 // Icons
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { BsLinkedin, BsGithub } from "react-icons/bs";
+import { /* BsLinkedin, */ BsGithub } from "react-icons/bs";
 
 
 function Homepage() {
@@ -32,7 +32,7 @@ function Homepage() {
                         <div id="socials">
                             <a href="sms:602-668-6436"><FaPhoneAlt id="phone-icon" className="icon" /></a>
                             <a href="mailto:barik.boley@gmail.com"><MdEmail id="email-icon" className="icon" /></a>
-                            <a href="https://www.linkedin.com/in/barik-boley-b2088820b/" target="_blank" rel="noreferrer"><BsLinkedin id="linkedin-icon" className="icon" /></a>
+                            {/* <a href="https://www.linkedin.com/in/barik-boley-b2088820b/" target="_blank" rel="noreferrer"><BsLinkedin id="linkedin-icon" className="icon" /></a> */}
                             <a href="https://github.com/xBarikadex" target="_blank" rel="noreferrer"><BsGithub id="github-icon" className="icon" /></a>
                         </div>
                     </div>
