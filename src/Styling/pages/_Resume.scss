@@ -46,14 +46,7 @@
     justify-content: space-between;
     margin-bottom: 1rem;
     #print-btn {
-        background: none;
-        border: none;
         font-size: 2rem;
-        color: $link-hover;
-        &:hover {
-            color: $link;
-            cursor: pointer;
-        }
     }
 
     #resume-contacts {
@@ -76,6 +69,20 @@
             }
         }
     }
+}
+
+.resume-btn {
+    background: none;
+    border: none;
+    color: $link-hover;
+    &:hover {
+        color: $link;
+        cursor: pointer;
+    }
+}
+.download-btn {
+    position: relative;
+    top: .2rem;
 }
 
 #resume-website-link {
@@ -255,7 +262,7 @@ li.no-columns-list {
     #nav-title {
         display: none;
     }
-    #print-btn {
+    .resume-btn {
         display: none;
     }
     #resume-website-link {

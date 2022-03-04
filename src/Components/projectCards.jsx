@@ -1,5 +1,5 @@
 import React from "react";
-import Projects from "../Data/projects.js";
+import Projects from "../Data/websiteProjects.js";
 import { BiLinkExternal } from "react-icons/bi";
 
 function infoBox() {

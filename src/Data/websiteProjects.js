@@ -1,7 +1,3 @@
-// Updated Portfolio Project Image
-// Creting an API link and Image
-// 
-
 let Projects = [
     {
         "ProjectName": "Multi API React App",

@@ -1344,15 +1344,7 @@ iframe {
 }
 
 #resume-top #print-btn {
-  background: none;
-  border: none;
   font-size: 2rem;
-  color: #0400d9;
-}
-
-#resume-top #print-btn:hover {
-  color: #0000ff;
-  cursor: pointer;
 }
 
 #resume-top #resume-contacts {
@@ -1378,6 +1370,22 @@ iframe {
 
 #resume-top #resume-contacts .contact-div a .resume-icon {
   color: #313c4e;
+  position: relative;
+  top: .2rem;
+}
+
+.resume-btn {
+  background: none;
+  border: none;
+  color: #0400d9;
+}
+
+.resume-btn:hover {
+  color: #0000ff;
+  cursor: pointer;
+}
+
+.download-btn {
   position: relative;
   top: .2rem;
 }
@@ -1598,7 +1606,7 @@ li.no-columns-list {
   #nav-title {
     display: none;
   }
-  #print-btn {
+  .resume-btn {
     display: none;
   }
   #resume-website-link {
