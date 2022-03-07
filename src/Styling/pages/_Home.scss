@@ -108,3 +108,12 @@
         height: 24rem;
     }
 }
+
+@media screen and (max-height: 925px) {
+    #homepage {
+        .footer {
+            position: relative;
+            margin-top: 3rem;
+        }
+    }
+}
