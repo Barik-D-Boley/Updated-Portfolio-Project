@@ -1,13 +1,14 @@
 // Misc
 import React from "react";
 import { Helmet } from 'react-helmet';
+import { Link } from "react-router-dom";
 
 // Components
 import Navbar from "../Components/navbar";
 import Footer from "../Components/footer";
 
 // Icons
-import { MdEmail, MdLocationOn, MdOutlineWeb } from "react-icons/md";
+import { MdEmail, MdLocationOn, MdOutlineWeb, MdFileDownload } from "react-icons/md";
 import { FaPhoneAlt, FaPrint } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 
@@ -27,7 +28,7 @@ function Resume() {
                     <div>
                         <h1>Barik Boley</h1>
                         <h2>Full Stack Web Developer</h2>
-                        <button id="print-btn" onClick={() => window.print()}><FaPrint /></button>
+                        <button id="print-btn" className="resume-btn" title="Print resume" onClick={() => window.print()}><FaPrint /></button>
                     </div>
 
                     {/* Contacts */}
@@ -42,7 +43,7 @@ function Resume() {
 
                 {/* Resume Statement */}
                 <div>
-                    <p className="resume-text center-text">Actively seeking an entry-level position to gain practical experience and grow my professional skills. Eager and motivated to help the customer support department.</p>
+                    <p className="resume-text center-text">Actively seeking an entry-level position to gain practical experience and grow my professional skills. Eager and motivated to help the MEP department.</p>
                 </div>  
 
                 {/* Resume Bottom */}
@@ -227,10 +228,10 @@ function Resume() {
                             <h3>Certificates</h3><hr/>
 
                             <div className="text-boxes">
-                                <p className="resume-text">Autodesk Certification (08/2018 - 05/2021)</p>
+                                <p className="resume-text">Autodesk Certification<Link to="/Downloads/Autodesk_Certification.pdf" target="_blank" download className="resume-btn download-btn" title="Autodesk certification download"><MdFileDownload /></Link>(08/2018 - 05/2021)</p>
                                 <p className="resume-description">Certiport Professional Exam</p>
 
-                                <p className="resume-text">MTA HTML5 and CSS3 (08/2020 - 05/2021)</p>
+                                <p className="resume-text">MTA HTML5 and CSS3<Link to="/Downloads/HTML5_Certification.pdf" target="_blank" download className="resume-btn download-btn" title="HTML5 certification download"><MdFileDownload /></Link>(08/2020 - 05/2021)</p>
                                 <p className="resume-description">Microsoft Technology Associate</p>
                             </div>
                         </div>

@@ -43,7 +43,7 @@ function ContactMe() {
     }
 
     return (
-        <div>
+        <div id="contactPage">
             <Helmet>
                 <title>Contact Me</title>
             </Helmet>

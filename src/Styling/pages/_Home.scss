@@ -91,7 +91,7 @@
         align-self: center;
         margin: auto 0;
     }
-    .homepage {
+    #homepage {
         #footer {
             margin-top: 3rem;
             position: relative;
@@ -106,5 +106,14 @@
 @media screen and (max-width: 480px) {
     #profile-picture {
         height: 24rem;
+    }
+}
+
+@media screen and (max-height: 955px) {
+    #homepage {
+        .footer {
+            position: relative;
+            margin-top: 3rem;
+        }
     }
 }
