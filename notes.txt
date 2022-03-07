@@ -30,7 +30,6 @@
  - Get the autofill to work on DuckDuckGo
  - Make sure the x on the error/success page is always in the same spot
  - Center the contact div vertically
- - Make the footer always stay at the bottom of the page
 
 // Navbar
  - On mobile, make the navbar transition down instead of instantly coming down
@@ -38,10 +37,10 @@
 
 // Future Plans
  - Transfer all database info to MongoDB
- - Add a login page for easy backend changes
+ - Add a login page for easy backend changes (Firebase)
  - Use emails, not usernames for registering
  - Add an admin page to add or edit projects in the project gallery
- - Make a database for website updates that can be added to and changed when an admin is logged in
- - Put website updates link in the footer
+ - Make a database for website updates (2.0.0 etc.) that can be added to and changed
+ - Put the website updates link in the footer
  - Make it so only people who are logged in can send messages
  - Make a page for CAD projects

@@ -15,7 +15,7 @@ import { /* BsLinkedin, */ BsGithub } from "react-icons/bs";
 
 function Homepage() {
     return (
-        <div className="homepage">
+        <div id="homepage">
             <Helmet>
                 <title>Homepage</title>
             </Helmet>
