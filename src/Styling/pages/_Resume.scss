@@ -75,6 +75,7 @@
     background: none;
     border: none;
     color: $link-hover;
+    transition: color .2s ease;
     &:hover {
         color: $link;
         cursor: pointer;
@@ -83,6 +84,7 @@
 .download-btn {
     position: relative;
     top: .2rem;
+    margin-right: .2rem;
 }
 
 #resume-website-link {

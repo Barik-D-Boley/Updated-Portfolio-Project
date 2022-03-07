@@ -774,7 +774,7 @@ iframe {
   width: auto;
   color: #ffffff;
   padding: 0.3rem 1rem;
-  background-color: #006eff;
+  background-color: #006dfe;
   bottom: 0;
   left: 0;
   border: none;
@@ -875,7 +875,7 @@ iframe {
   color: #005bd4;
 }
 #phone-icon:hover {
-  color: #006eff;
+  color: #006dfe;
 }
 
 #email-icon {
@@ -1199,6 +1199,7 @@ iframe {
   background: none;
   border: none;
   color: #0400d9;
+  transition: color 0.2s ease;
 }
 .resume-btn:hover {
   color: #0000ff;
@@ -1208,6 +1209,7 @@ iframe {
 .download-btn {
   position: relative;
   top: 0.2rem;
+  margin-right: 0.2rem;
 }
 
 #resume-website-link {
