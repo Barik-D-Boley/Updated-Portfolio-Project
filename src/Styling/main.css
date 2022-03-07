@@ -415,12 +415,6 @@ template {
     content: none;
   }
 }
-@media screen and (max-height: 793px) {
-  .footer {
-    position: relative;
-    margin-top: 3rem;
-  }
-}
 /* Navbar Container */
 #navbar {
   z-index: 100;
@@ -780,7 +774,7 @@ iframe {
   width: auto;
   color: #ffffff;
   padding: 0.3rem 1rem;
-  background-color: #006eff;
+  background-color: #006dfe;
   bottom: 0;
   left: 0;
   border: none;
@@ -796,9 +790,15 @@ iframe {
   box-shadow: -0.3rem 0.3rem #000000;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 770px) {
   #contact-container-div {
     margin-top: 4rem;
+  }
+}
+@media screen and (max-height: 770px) {
+  #contactPage .footer {
+    position: relative;
+    margin-top: 3rem;
   }
 }
 #gallery {
@@ -875,7 +875,7 @@ iframe {
   color: #005bd4;
 }
 #phone-icon:hover {
-  color: #006eff;
+  color: #006dfe;
 }
 
 #email-icon {
@@ -912,7 +912,7 @@ iframe {
     margin: auto 0;
   }
 
-  .homepage #footer {
+  #homepage #footer {
     margin-top: 3rem;
     position: relative;
   }
@@ -1173,14 +1173,7 @@ iframe {
   margin-bottom: 1rem;
 }
 #resume-top #print-btn {
-  background: none;
-  border: none;
   font-size: 2rem;
-  color: #0400d9;
-}
-#resume-top #print-btn:hover {
-  color: #0000ff;
-  cursor: pointer;
 }
 #resume-top #resume-contacts {
   text-align: right;
@@ -1200,6 +1193,23 @@ iframe {
   color: #313c4e;
   position: relative;
   top: 0.2rem;
+}
+
+.resume-btn {
+  background: none;
+  border: none;
+  color: #0400d9;
+  transition: color 0.2s ease;
+}
+.resume-btn:hover {
+  color: #0000ff;
+  cursor: pointer;
+}
+
+.download-btn {
+  position: relative;
+  top: 0.2rem;
+  margin-right: 0.2rem;
 }
 
 #resume-website-link {
@@ -1394,7 +1404,7 @@ li.no-columns-list {
     display: none;
   }
 
-  #print-btn {
+  .resume-btn {
     display: none;
   }
 

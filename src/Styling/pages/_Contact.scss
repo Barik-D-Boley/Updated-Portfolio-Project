@@ -51,8 +51,17 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 770px) {
     #contact-container-div {
         margin-top: 4rem;
+    }
+}
+
+@media screen and (max-height: 770px) {
+    #contactPage {
+        .footer {
+            position: relative;
+            margin-top: 3rem;
+        }
     }
 }
