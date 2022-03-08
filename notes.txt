@@ -12,7 +12,6 @@
  - Make the skills boxes pop up on hover
  - Make the interest boxes change colors on hover
  - Make the print button work for DuckDuckGo
- - Get rid of the extra empty page when printing
  - Add margin-top for mobile
  - Make the navbar stay in the same place on DuckDuckGo
 
