@@ -1,4 +1,5 @@
 import React from "react";
+import bcrypt from "bcryptjs";
 
 function loginForm() {
     return (
@@ -7,6 +8,7 @@ function loginForm() {
             <input type="text" name="email" />
             <label htmlFor="password">Password:</label>
             <input type="password" name="password" />
+            <input type="submit" />
         </form>
     )
 }
