@@ -17,7 +17,7 @@ function Navbar(active) {
                 <Link to="/resume" className={`nav-page-link ${(num === "resume") ? "nav-active" : "nav-inactive"}`}>Resume</Link>
                 <Link to="/gallery" className={`nav-page-link ${(num === "projectGallery") ? "nav-active" : "nav-inactive"}`}>Project Gallery</Link>
                 <Link to="/contact" className={`nav-page-link ${(num === "contactMe") ? "nav-active" : "nav-inactive"}`}>Contact Me</Link>
-                <Link to="/login" id="login-btn" className="nav-page-link nav-active">Login</Link>
+                <Link to="/login" id="login-btn" className="nav-page-link">Login</Link>
             </div>
         </div>
     )

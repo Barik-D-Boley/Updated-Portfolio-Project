@@ -20,6 +20,8 @@
 
 #login-btn {
     background-color: $resume-subtitles;
+    color: $navbar-active;
+    text-decoration: none;
     margin-left: .2rem;
     padding-bottom: .1rem;
 }
@@ -73,12 +75,13 @@
         background-color: white;
         box-shadow: 0 0 .1rem .2rem #0000007f;
         box-sizing: border-box;
-
+        padding: 0;
     }
     #nav-top {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: .5rem;
     }
     #nav-title {
         color: $title;
@@ -100,9 +103,14 @@
         width: 100%;
         flex-direction: column;
         margin: 0;
-        margin-top: 1rem;
         align-items: center;
         background-color: #eaeaea;
+        padding: .2rem;
+        #login-btn {
+            background-color: $submit-btn;
+            box-sizing: border-box;
+            padding: .2rem .4rem;
+        }
     }
     .nav-page-link {
         padding: 0;
