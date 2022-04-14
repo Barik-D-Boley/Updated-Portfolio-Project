@@ -1,5 +1,5 @@
 import React from "react";
-import bcrypt from "bcryptjs";
+// import bcrypt from "bcryptjs";
 
 function loginForm() {
     /* Firebase Stuff */
