@@ -6,6 +6,7 @@
 // Home
  - Makes the icons better colors, and all either become darker or lighter on hover
  - Footer needs repositioning at 1359px x 822px
+ - Make the a tag go over just the icons
 
 // Resume
  - Make the brackets and connected dots on the resume page relative

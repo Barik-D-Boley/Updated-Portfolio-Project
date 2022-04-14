@@ -43,7 +43,7 @@ function Resume() {
 
                 {/* Resume Statement */}
                 <div>
-                    <p className="resume-text center-text">Actively seeking an entry-level position to gain practical experience and grow my professional skills. Eager and motivated to help the MEP department.</p>
+                    <p className="resume-text center-text">Actively seeking an entry-level position to gain practical experience and grow my professional skills. Eager and motivated to help the Technology department.</p>
                 </div>  
 
                 {/* Resume Bottom */}

@@ -119,16 +119,16 @@ let Projects = [
         "CoverImage": require("../Images/Task_Manager.PNG").default,
         "Notable": false
     },
-    // {
-    //     "ProjectName": "Vet Project",
-    //     "GithubLink": "https://github.com/TheCapn-MEC/vetProject",
-    //     "DateCreated": "January 16, 2022",
-    //     "LibraryUsed": "NodeJS",
-    //     "WebsiteLink": "",
-    //     "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
-    //     // "CoverImage": require("../Images/Vet_Project.PNG").default,
-    //     "Notable": true
-    // },
+    {
+        "ProjectName": "Vet Project",
+        "GithubLink": "https://github.com/TheCapn-MEC/vetProject",
+        "DateCreated": "January 16, 2022",
+        "LibraryUsed": "NodeJS",
+        "WebsiteLink": "http://vet-project.herokuapp.com/",
+        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aliquid at molestias dolorum provident repudiandae. Aliquid delectus consequuntur fugiat, quos maxime illo sit. Amet repellat incidunt perspiciatis quaerat id!",
+        "CoverImage": require("../Images/Vet_Project.PNG").default,
+        "Notable": true
+    },
     {
         "ProjectName": "Group Car Website",
         "GithubLink": "https://github.com/Eves259/Group-Car-Website",
