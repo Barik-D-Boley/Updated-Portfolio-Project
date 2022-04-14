@@ -14,7 +14,7 @@ import { BsGithub } from "react-icons/bs";
 
 function Resume() {
     return (
-        <div>
+        <div id="resume-page">
             <Helmet>
                 <title>Barik's Resume</title>
             </Helmet>

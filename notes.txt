@@ -13,9 +13,10 @@
  - Make the skills boxes pop up on hover
  - Make the interest boxes change colors on hover
  - Make the print button work for DuckDuckGo
- - Get rid of the extra empty page when printing
  - Add margin-top for mobile
  - Make the navbar stay in the same place on DuckDuckGo
+ - Change the button color with the hover color
+ - Make the text more centered horizontally on mobile
 
 // Project Gallery
  - Make a carousel that passes a data file into it, and dynamically displays the number of images there are based on how many images there are with titles, images, descriptions, and other info

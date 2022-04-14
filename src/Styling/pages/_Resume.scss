@@ -253,6 +253,15 @@ li.no-columns-list {
         position: relative;
         top: 3rem;
     }
+    #resume-page {
+        margin: 0;
+        padding: 0;
+        height: 0;
+    }
+    #resume-container {
+        padding-top: 3.75rem;
+        padding-bottom: 0;
+    }
     #navbar {
         display: none;
         margin: 0;
@@ -299,7 +308,7 @@ li.no-columns-list {
     }
 
     // Brackets Positioning
-    $brackets-top: 33.3rem;
+    $brackets-top: 33.55rem;
     .bracket-pair {
         width: 31.5rem;
     }
@@ -329,7 +338,7 @@ li.no-columns-list {
     }
 
     // Dots Positioning
-    $dots-top: 26.8rem;
+    $dots-top: 27.05rem;
     #dots_1 {
         top: $dots-top;
     }
