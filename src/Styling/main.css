@@ -451,12 +451,12 @@ template {
 }
 
 .nav-inactive {
-  color: #ffffff7f;
+  color: rgba(255, 255, 255, 0.4980392157);
   text-decoration: none;
   transition: color 0.2s ease-out;
 }
 .nav-inactive:hover {
-  color: #ffffffcf;
+  color: rgba(255, 255, 255, 0.8117647059);
 }
 
 .navbar-toggle-btn, .navbar-toggle-btn-active {
@@ -489,7 +489,7 @@ template {
     margin: 0;
     margin-bottom: 1.5rem;
     background-color: white;
-    box-shadow: 0 0 0.1rem 0.2rem #0000007f;
+    box-shadow: 0 0 0.1rem 0.2rem rgba(0, 0, 0, 0.4980392157);
     box-sizing: border-box;
     padding: 0;
   }
@@ -510,7 +510,7 @@ template {
   }
 
   .nav-inactive {
-    color: #0000007f;
+    color: rgba(0, 0, 0, 0.4980392157);
   }
 
   .navbar-toggle-btn, .navbar-toggle-btn-active {
@@ -558,7 +558,7 @@ template {
   height: 100%;
   top: 0;
   left: 0;
-  background: #0000005f;
+  background: rgba(0, 0, 0, 0.3725490196);
   z-index: 10;
 }
 
