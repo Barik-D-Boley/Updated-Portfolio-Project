@@ -58,7 +58,7 @@ function Resume() {
                                 <h4 className="experience-title">Full Stack Web Development</h4>
                                 <h4 className="experience-subtitle">West MEC - Technical Training Education</h4>
                                 <div className="inline-date-container">
-                                    <p className="resume-subtitles">08/2020 - Exp. Grad 05/2022</p>
+                                    <p className="resume-subtitles">08/2020 - 05/2022</p>
                                     <p className="resume-subtitles">3.75 GPA</p>
                                 </div>
                                 <div>
@@ -81,7 +81,7 @@ function Resume() {
                                 <h4 className="experience-title">CTE Engineering</h4>
                                 <h4 className="experience-subtitle">Boulder Creek High School</h4>
                                 <div className="inline-date-container">
-                                    <p className="resume-subtitles">08/2018 - Exp. Grad 05/2022</p>
+                                    <p className="resume-subtitles">08/2018 - 05/2022</p>
                                     <p className="resume-subtitles">3.88 GPA</p>
                                 </div>
                                 <div>
