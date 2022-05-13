@@ -18,14 +18,16 @@ import Contact from "./Pages/ContactMe";
 import Login from "./Pages/Login";
 
 ReactDOM.render(
-    <BrowserRouter>
-        <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/resume" element={<Resume />} />
-            <Route path="/gallery" element={<Gallery />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/login" element={<Login />} />
-        </Routes>
-    </BrowserRouter>,
+    <React.StrictMode>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/resume" element={<Resume />} />
+                <Route path="/gallery" element={<Gallery />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/login" element={<Login />} />
+            </Routes>
+        </BrowserRouter>
+    </React.StrictMode>,
     document.getElementById("root")
 );

@@ -233,6 +233,9 @@ function Resume() {
 
                                 <p className="resume-text">MTA HTML5 and CSS3<Link to="/Downloads/HTML5_Certification.pdf" target="_blank" download className="resume-btn download-btn" title="HTML5 certification download"><MdFileDownload /></Link>(08/2020 - 05/2021)</p>
                                 <p className="resume-description">Microsoft Technology Associate</p>
+
+                                <p className="resume-text">CIW Javascript Specialist<Link to="/Downloads/CIW_Javascript_Certification.pdf" target="_blank" download className="resume-btn download-btn" title="CIW Javascript Certification download"><MdFileDownload /></Link>(08/2020 - 05/2022)</p>
+                                <p className="resume-description">Certified Internet Web Professional</p>
                             </div>
                         </div>
 
