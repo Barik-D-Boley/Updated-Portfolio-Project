@@ -175,7 +175,7 @@ function Resume() {
                     </div>
 
                     {/* Right Column */}
-                    <div className="column">
+                    <div id="right-col" className="column">
                         {/* Skills */}
                         <div>
                             <h3>Skills</h3><hr/>

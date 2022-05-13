@@ -1182,6 +1182,12 @@ iframe {
   background-color: #000000;
   border: none;
 }
+#resume-container #right-col div:first-child h3 {
+  margin-top: 4rem;
+}
+#resume-container #right-col h3 {
+  margin-top: 3rem;
+}
 
 #resume-top {
   display: flex;
@@ -1458,6 +1464,12 @@ li.no-columns-list {
   }
   #resume-container h3 {
     margin-top: 3.5rem;
+  }
+  #resume-container #right-col div:first-child h3 {
+    margin-top: 3.5rem;
+  }
+  #resume-container #right-col h3 {
+    margin-top: 2.5rem;
   }
 
   .skill-box {

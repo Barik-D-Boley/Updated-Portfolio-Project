@@ -39,6 +39,16 @@
         background-color: $resume-text;
         border: none;
     }
+    #right-col {
+        div:first-child {
+            h3 {
+                margin-top: 4rem;
+            }
+        }
+        h3 {
+            margin-top: 3rem;
+        }
+    }
 }
 
 #resume-top {
@@ -298,6 +308,16 @@ li.no-columns-list {
         }
         h3 {
             margin-top: 3.5rem;
+        }
+        #right-col {
+            div:first-child {
+                h3 {
+                    margin-top: 3.5rem;
+                }
+            }
+            h3 {
+                margin-top: 2.5rem;
+            }
         }
     }
     .skill-box {
