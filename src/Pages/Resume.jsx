@@ -228,13 +228,13 @@ function Resume() {
                             <h3>Certificates</h3><hr/>
 
                             <div className="text-boxes">
-                                <p className="resume-text">Autodesk Certification<Link to="/Downloads/Autodesk_Certification.pdf" target="_blank" download className="resume-btn download-btn" title="Autodesk certification download"><MdFileDownload /></Link>(08/2018 - 05/2021)</p>
+                                <p className="resume-text">Autodesk Certification<Link to="/Downloads/Autodesk_Cert.pdf" target="_blank" download className="resume-btn download-btn" title="Autodesk certification download"><MdFileDownload /></Link>(08/2018 - 05/2021)</p>
                                 <p className="resume-description">Certiport Professional Exam</p>
 
-                                <p className="resume-text">MTA HTML5 and CSS3<Link to="/Downloads/HTML5_Certification.pdf" target="_blank" download className="resume-btn download-btn" title="HTML5 certification download"><MdFileDownload /></Link>(08/2020 - 05/2021)</p>
+                                <p className="resume-text">MTA HTML5 and CSS3<Link to="/Downloads/HTML5_Cert.pdf" target="_blank" download className="resume-btn download-btn" title="HTML5 certification download"><MdFileDownload /></Link>(08/2020 - 05/2021)</p>
                                 <p className="resume-description">Microsoft Technology Associate</p>
 
-                                <p className="resume-text">CIW Javascript Specialist<Link to="/Downloads/CIW_Javascript_Certification.pdf" target="_blank" download className="resume-btn download-btn" title="CIW Javascript Certification download"><MdFileDownload /></Link>(08/2020 - 05/2022)</p>
+                                <p className="resume-text">CIW Javascript Specialist<Link to="/Downloads/CIW_Javascript_Cert.pdf" target="_blank" download className="resume-btn download-btn" title="CIW Javascript Certification download"><MdFileDownload /></Link>(08/2020 - 05/2022)</p>
                                 <p className="resume-description">Certified Internet Web Professional</p>
                             </div>
                         </div>
